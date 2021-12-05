@@ -1,0 +1,1179 @@
+,dataset,info
+0,indonlu,"Config name is missing.
+Please pick one among the available configs: ['emot', 'smsa', 'casa', 'hoasa', 'wrete', 'posp', 'bapos', 'terma', 'keps', 'nergrit', 'nerp', 'facqa']
+Example of usage:
+	`load_dataset('indonlu', 'emot')`"
+1,poleval2019_mt,"Config name is missing.
+Please pick one among the available configs: ['ru-pl', 'en-pl', 'pl-ru', 'pl-en']
+Example of usage:
+	`load_dataset('poleval2019_mt', 'ru-pl')`"
+2,flores,"Config name is missing.
+Please pick one among the available configs: ['neen', 'sien']
+Example of usage:
+	`load_dataset('flores', 'neen')`"
+3,offcombr,"Config name is missing.
+Please pick one among the available configs: ['offcombr-2', 'offcombr-3']
+Example of usage:
+	`load_dataset('offcombr', 'offcombr-2')`"
+4,xglue,"Config name is missing.
+Please pick one among the available configs: ['ner', 'pos', 'mlqa', 'nc', 'xnli', 'paws-x', 'qadsm', 'wpr', 'qam', 'qg', 'ntg']
+Example of usage:
+	`load_dataset('x_glue', 'ner')`"
+5,wikitext,"Config name is missing.
+Please pick one among the available configs: ['wikitext-103-v1', 'wikitext-2-v1', 'wikitext-103-raw-v1', 'wikitext-2-raw-v1']
+Example of usage:
+	`load_dataset('wikitext', 'wikitext-103-v1')`"
+6,craigslist_bargains,Cannot seek streaming HTTP file
+7,xtreme,"Config name is missing.
+Please pick one among the available configs: ['XNLI', 'tydiqa', 'SQuAD', 'PAN-X.af', 'PAN-X.ar', 'PAN-X.bg', 'PAN-X.bn', 'PAN-X.de', 'PAN-X.el', 'PAN-X.en', 'PAN-X.es', 'PAN-X.et', 'PAN-X.eu', 'PAN-X.fa', 'PAN-X.fi', 'PAN-X.fr', 'PAN-X.he', 'PAN-X.hi', 'PAN-X.hu', 'PAN-X.id', 'PAN-X.it', 'PAN-X.ja', 'PAN-X.jv', 'PAN-X.ka', 'PAN-X.kk', 'PAN-X.ko', 'PAN-X.ml', 'PAN-X.mr', 'PAN-X.ms', 'PAN-X.my', 'PAN-X.nl', 'PAN-X.pt', 'PAN-X.ru', 'PAN-X.sw', 'PAN-X.ta', 'PAN-X.te', 'PAN-X.th', 'PAN-X.tl', 'PAN-X.tr', 'PAN-X.ur', 'PAN-X.vi', 'PAN-X.yo', 'PAN-X.zh', 'MLQA.ar.ar', 'MLQA.ar.de', 'MLQA.ar.vi', 'MLQA.ar.zh', 'MLQA.ar.en', 'MLQA.ar.es', 'MLQA.ar.hi', 'MLQA.de.ar', 'MLQA.de.de', 'MLQA.de.vi', 'MLQA.de.zh', 'MLQA.de.en', 'MLQA.de.es', 'MLQA.de.hi', 'MLQA.vi.ar', 'MLQA.vi.de', 'MLQA.vi.vi', 'MLQA.vi.zh', 'MLQA.vi.en', 'MLQA.vi.es', 'MLQA.vi.hi', 'MLQA.zh.ar', 'MLQA.zh.de', 'MLQA.zh.vi', 'MLQA.zh.zh', 'MLQA.zh.en', 'MLQA.zh.es', 'MLQA.zh.hi', 'MLQA.en.ar', 'MLQA.en.de', 'MLQA.en.vi', 'MLQA.en.zh', 'MLQA.en.en', 'MLQA.en.es', 'MLQA.en.hi', 'MLQA.es.ar', 'MLQA.es.de', 'MLQA.es.vi', 'MLQA.es.zh', 'MLQA.es.en', 'MLQA.es.es', 'MLQA.es.hi', 'MLQA.hi.ar', 'MLQA.hi.de', 'MLQA.hi.vi', 'MLQA.hi.zh', 'MLQA.hi.en', 'MLQA.hi.es', 'MLQA.hi.hi', 'XQuAD.ar', 'XQuAD.de', 'XQuAD.vi', 'XQuAD.zh', 'XQuAD.en', 'XQuAD.es', 'XQuAD.hi', 'XQuAD.el', 'XQuAD.ru', 'XQuAD.th', 'XQuAD.tr', 'bucc18.de', 'bucc18.fr', 'bucc18.zh', 'bucc18.ru', 'PAWS-X.de', 'PAWS-X.en', 'PAWS-X.es', 'PAWS-X.fr', 'PAWS-X.ja', 'PAWS-X.ko', 'PAWS-X.zh', 'tatoeba.afr', 'tatoeba.ara', 'tatoeba.ben', 'tatoeba.bul', 'tatoeba.deu', 'tatoeba.cmn', 'tatoeba.ell', 'tatoeba.est', 'tatoeba.eus', 'tatoeba.fin', 'tatoeba.fra', 'tatoeba.heb', 'tatoeba.hin', 'tatoeba.hun', 'tatoeba.ind', 'tatoeba.ita', 'tatoeba.jav', 'tatoeba.jpn', 'tatoeba.kat', 'tatoeba.kaz', 'tatoeba.kor', 'tatoeba.mal', 'tatoeba.mar', 'tatoeba.nld', 'tatoeba.pes', 'tatoeba.por', 'tatoeba.rus', 'tatoeba.spa', 'tatoeba.swh', 'tatoeba.tam', 'tatoeba.tel', 'tatoeba.tgl', 'tatoeba.tha', 'tatoeba.tur', 'tatoeba.urd', 'tatoeba.vie', 'udpos.Afrikaans', 'udpos.Arabic', 'udpos.Basque', 'udpos.Bulgarian', 'udpos.Dutch', 'udpos.English', 'udpos.Estonian', 'udpos.Finnish', 'udpos.French', 'udpos.German', 'udpos.Greek', 'udpos.Hebrew', 'udpos.Hindi', 'udpos.Hungarian', 'udpos.Indonesian', 'udpos.Italian', 'udpos.Japanese', 'udpos.Kazakh', 'udpos.Korean', 'udpos.Chinese', 'udpos.Marathi', 'udpos.Persian', 'udpos.Portuguese', 'udpos.Russian', 'udpos.Spanish', 'udpos.Tagalog', 'udpos.Tamil', 'udpos.Telugu', 'udpos.Thai', 'udpos.Turkish', 'udpos.Urdu', 'udpos.Vietnamese', 'udpos.Yoruba']
+Example of usage:
+	`load_dataset('xtreme', 'XNLI')`"
+8,xquad,"Config name is missing.
+Please pick one among the available configs: ['xquad.ar', 'xquad.de', 'xquad.zh', 'xquad.vi', 'xquad.en', 'xquad.es', 'xquad.hi', 'xquad.el', 'xquad.th', 'xquad.tr', 'xquad.ru', 'xquad.ro']
+Example of usage:
+	`load_dataset('xquad', 'xquad.ar')`"
+9,glue,"Config name is missing.
+Please pick one among the available configs: ['cola', 'sst2', 'mrpc', 'qqp', 'stsb', 'mnli', 'mnli_mismatched', 'mnli_matched', 'qnli', 'rte', 'wnli', 'ax']
+Example of usage:
+	`load_dataset('glue', 'cola')`"
+10,msr_zhen_translation_parity,"The dataset msr_zhen_translation_parity with config default requires manual data.
+                    Please follow the manual download instructions:
+                         You need to go to https://msropendata.com/datasets/93f9aa87-9491-45ac-81c1-6498b6be0d0b,
+    and manually download translatorhumanparitydata2.zip (or translatorhumanparitydata2.tar.gz).
+    Once it is completed, extract its content into a directory, <path/to/folder>.
+    Within this directory, there are three subdirectories, Translations, References, and Evaluations.
+    The <path/to/folder> can e.g. be ""~/Downloads/translatorhumanparitydata2"", if you just double click the .zip file.
+    msr_zhen_translation_parity can then be loaded using the following command
+    `datasets.load_dataset(""msr_zhen_translation_parity"", data_dir=""<path/to/folder>"")`.
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(msr_zhen_translation_parity, data_dir='<path/to/manual/data>')"
+11,opus_ubuntu,"Config name is missing.
+Please pick one among the available configs: ['as-bs', 'az-cs', 'bg-de', 'br-es_PR', 'bn-ga', 'br-hi', 'br-la', 'bs-szl', 'br-uz', 'br-yi']
+Example of usage:
+	`load_dataset('opus_ubuntu', 'as-bs')`"
+12,multi_para_crawl,"Config name is missing.
+Please pick one among the available configs: ['cs-is', 'ga-sk', 'lv-mt', 'nb-ru', 'de-tl']
+Example of usage:
+	`load_dataset('multi_para_crawl', 'cs-is')`"
+13,neural_code_search,"Config name is missing.
+Please pick one among the available configs: ['evaluation_dataset', 'search_corpus']
+Example of usage:
+	`load_dataset('neural_code_search', 'evaluation_dataset')`"
+14,igbo_monolingual,"Config name is missing.
+Please pick one among the available configs: ['eze_goes_to_school', 'bbc-igbo', 'igbo-radio', 'jw-ot-igbo', 'jw-nt-igbo', 'jw-books', 'jw-teta', 'jw-ulo_nche', 'jw-ulo_nche_naamu']
+Example of usage:
+	`load_dataset('igbo_monolingual', 'eze_goes_to_school')`"
+15,jigsaw_toxicity_pred,"The dataset jigsaw_toxicity_pred with config default requires manual data.
+                    Please follow the manual download instructions:
+                                 To use jigsaw_toxicity_pred you have to download it manually from Kaggle: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
+            You can manually download the data from it's homepage or use the Kaggle CLI tool (follow the instructions here: https://www.kaggle.com/docs/api)
+            Please extract all files in one folder and then load the dataset with:
+            `datasets.load_dataset('jigsaw_toxicity_pred', data_dir='/path/to/extracted/data/')`
+                    Manual data can be loaded with:
+                     datasets.load_dataset(jigsaw_toxicity_pred, data_dir='<path/to/manual/data>')"
+16,wiki_dpr,"Config name is missing.
+Please pick one among the available configs: ['psgs_w100.nq.exact', 'psgs_w100.nq.compressed', 'psgs_w100.nq.no_index', 'psgs_w100.multiset.exact', 'psgs_w100.multiset.compressed', 'psgs_w100.multiset.no_index', 'psgs_w100.nq.exact.no_embeddings', 'psgs_w100.nq.compressed.no_embeddings', 'psgs_w100.nq.no_index.no_embeddings', 'psgs_w100.multiset.exact.no_embeddings', 'psgs_w100.multiset.compressed.no_embeddings', 'psgs_w100.multiset.no_index.no_embeddings']
+Example of usage:
+	`load_dataset('wiki_dpr', 'psgs_w100.nq.exact')`"
+17,evidence_infer_treatment,"Config name is missing.
+Please pick one among the available configs: ['2.0', '1.1']
+Example of usage:
+	`load_dataset('evidence_infer_treatment', '2.0')`"
+18,masakhaner,"Config name is missing.
+Please pick one among the available configs: ['amh', 'hau', 'ibo', 'kin', 'lug', 'luo', 'pcm', 'swa', 'wol', 'yor']
+Example of usage:
+	`load_dataset('masakhaner', 'amh')`"
+19,senti_lex,"Config name is missing.
+Please pick one among the available configs: ['af', 'an', 'ar', 'az', 'be', 'bg', 'bn', 'br', 'bs', 'ca', 'cs', 'cy', 'da', 'de', 'el', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fo', 'fr', 'fy', 'ga', 'gd', 'gl', 'gu', 'he', 'hi', 'hr', 'ht', 'hu', 'hy', 'ia', 'id', 'io', 'is', 'it', 'ja', 'ka', 'km', 'kn', 'ko', 'ku', 'ky', 'la', 'lb', 'lt', 'lv', 'mk', 'mr', 'ms', 'mt', 'nl', 'nn', 'no', 'pl', 'pt', 'rm', 'ro', 'ru', 'sk', 'sl', 'sq', 'sr', 'sv', 'sw', 'ta', 'te', 'th', 'tk', 'tl', 'tr', 'uk', 'ur', 'uz', 'vi', 'vo', 'wa', 'yi', 'zh', 'zhw']
+Example of usage:
+	`load_dataset('senti_lex', 'af')`"
+20,wi_locness,"Config name is missing.
+Please pick one among the available configs: ['wi', 'locness']
+Example of usage:
+	`load_dataset('wi_locness', 'wi')`"
+21,nell,'NoneType' object has no attribute 'name'
+22,spc,"Config name is missing.
+Please pick one among the available configs: ['af-en', 'el-en', 'en-zh']
+Example of usage:
+	`load_dataset('spc', 'af-en')`"
+23,species_800,"HTTPSConnectionPool(host='drive.google.com', port=443): Read timed out. (read timeout=10.0)"
+24,wmt20_mlqe_task2,"Config name is missing.
+Please pick one among the available configs: ['en-de', 'en-zh']
+Example of usage:
+	`load_dataset('wmt20_mlqe_task2', 'en-de')`"
+25,eli5,No module named 'zstandard'
+26,jigsaw_unintended_bias,"The dataset jigsaw_unintended_bias with config default requires manual data.
+                    Please follow the manual download instructions:
+                                 To use jigsaw_unintended_bias you have to download it manually from Kaggle: https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/data
+            You can manually download the data from it's homepage or use the Kaggle CLI tool (follow the instructions here: https://www.kaggle.com/docs/api)
+            Please extract all files in one folder and then load the dataset with:
+            `datasets.load_dataset('jigsaw_unintended_bias', data_dir='/path/to/extracted/data/')`
+                    Manual data can be loaded with:
+                     datasets.load_dataset(jigsaw_unintended_bias, data_dir='<path/to/manual/data>')"
+27,un_multi,"Config name is missing.
+Please pick one among the available configs: ['ar-de', 'ar-en', 'ar-es', 'ar-fr', 'ar-ru', 'ar-zh', 'de-en', 'de-es', 'de-fr', 'de-ru', 'de-zh', 'en-es', 'en-fr', 'en-ru', 'en-zh', 'es-fr', 'es-ru', 'es-zh', 'fr-ru', 'fr-zh', 'ru-zh']
+Example of usage:
+	`load_dataset('un_multi', 'ar-de')`"
+28,norne,No module named 'conllu'
+29,pib,"Config name is missing.
+Please pick one among the available configs: ['or-ur', 'ml-or', 'bn-ta', 'gu-mr', 'hi-or', 'en-or', 'mr-ur', 'en-ta', 'hi-ta', 'bn-en', 'bn-or', 'ml-ta', 'gu-ur', 'bn-ml', 'ml-pa', 'en-pa', 'bn-hi', 'hi-pa', 'gu-te', 'pa-ta', 'hi-ml', 'or-te', 'en-ml', 'en-hi', 'bn-pa', 'mr-te', 'mr-pa', 'bn-te', 'gu-hi', 'ta-ur', 'te-ur', 'or-pa', 'gu-ml', 'gu-pa', 'hi-te', 'en-te', 'ml-te', 'pa-ur', 'hi-ur', 'mr-or', 'en-ur', 'ml-ur', 'bn-mr', 'gu-ta', 'pa-te', 'bn-gu', 'bn-ur', 'ml-mr', 'or-ta', 'ta-te', 'gu-or', 'en-gu', 'hi-mr', 'mr-ta', 'en-mr']
+Example of usage:
+	`load_dataset('pib', 'or-ur')`"
+30,ccaligned_multilingual,"Config name is missing.
+Please pick one among the available configs: ['documents-zz_TR', 'sentences-zz_TR', 'documents-tz_MA', 'sentences-tz_MA', 'documents-ak_GH', 'sentences-ak_GH']
+Example of usage:
+	`load_dataset('ccaligned_multilingual', 'documents-zz_TR')`"
+31,doqa,"Config name is missing.
+Please pick one among the available configs: ['cooking', 'movies', 'travel']
+Example of usage:
+	`load_dataset('doqa', 'cooking')`"
+32,para_pat,"Config name is missing.
+Please pick one among the available configs: ['el-en', 'cs-en', 'en-hu', 'en-ro', 'en-sk', 'en-uk', 'es-fr', 'fr-ru', 'de-fr', 'en-ja', 'en-es', 'en-fr', 'de-en', 'en-ko', 'fr-ja', 'en-zh', 'en-ru', 'fr-ko', 'ru-uk', 'en-pt']
+Example of usage:
+	`load_dataset('para_pat', 'el-en')`"
+33,lst20,"The dataset lst20 with config lst20 requires manual data.
+                    Please follow the manual download instructions:
+                       You need to
+  1. Manually download `AIFORTHAI-LST20Corpus.tar.gz` from https://aiforthai.in.th/corpus.php (login required; website mostly in Thai)
+  2. Extract the .tar.gz; this will result in folder `LST20Corpus`
+  The <path/to/folder> can e.g. be `~/Downloads/LST20Corpus`.
+  lst20 can then be loaded using the following command `datasets.load_dataset(""lst20"", data_dir=""<path/to/folder>"")`.
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(lst20, data_dir='<path/to/manual/data>')"
+34,kannada_news,"The dataset kannada_news with config default requires manual data.
+                    Please follow the manual download instructions:
+
+    You need to go to https://www.kaggle.com/disisbig/kannada-news-dataset,
+    and manually download the dataset from Kaggle. Once it is completed,
+    a folder named archive.zip will appear in your Downloads folder(
+    or whichever folder your browser chooses to save files to). Unzip the folder to obtain
+    a folder named ""archive"" having train.csv and valid.csv.
+
+    You can then specify the path to this folder for the data_dir argument in the
+    datasets.load_dataset(...) option.
+
+    The <path/to/folder> can e.g. be ""/Downloads/archive"".
+    The data can then be loaded using the following command `datasets.load_dataset(""kannada_news"", data_dir=""/Downloads/archive"")`.
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(kannada_news, data_dir='<path/to/manual/data>')"
+35,hendrycks_test,"Config name is missing.
+Please pick one among the available configs: ['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'clinical_knowledge', 'college_biology', 'college_chemistry', 'college_computer_science', 'college_mathematics', 'college_medicine', 'college_physics', 'computer_security', 'conceptual_physics', 'econometrics', 'electrical_engineering', 'elementary_mathematics', 'formal_logic', 'global_facts', 'high_school_biology', 'high_school_chemistry', 'high_school_computer_science', 'high_school_european_history', 'high_school_geography', 'high_school_government_and_politics', 'high_school_macroeconomics', 'high_school_mathematics', 'high_school_microeconomics', 'high_school_physics', 'high_school_psychology', 'high_school_statistics', 'high_school_us_history', 'high_school_world_history', 'human_aging', 'human_sexuality', 'international_law', 'jurisprudence', 'logical_fallacies', 'machine_learning', 'management', 'marketing', 'medical_genetics', 'miscellaneous', 'moral_disputes', 'moral_scenarios', 'nutrition', 'philosophy', 'prehistory', 'professional_accounting', 'professional_law', 'professional_medicine', 'professional_psychology', 'public_relations', 'security_studies', 'sociology', 'us_foreign_policy', 'virology', 'world_religions']
+Example of usage:
+	`load_dataset('hendrycks_test', 'abstract_algebra')`"
+36,web_of_science,"Config name is missing.
+Please pick one among the available configs: ['WOS5736', 'WOS11967', 'WOS46985']
+Example of usage:
+	`load_dataset('web_of_science', 'WOS5736')`"
+37,openai_humaneval,Bad split: train. Available splits: ['test']
+38,code_x_glue_cc_code_refinement,"Config name is missing.
+Please pick one among the available configs: ['medium', 'small']
+Example of usage:
+	`load_dataset('code_x_glue_cc_code_refinement', 'medium')`"
+39,wmt15,"Config name is missing.
+Please pick one among the available configs: ['cs-en', 'de-en', 'fi-en', 'fr-en', 'ru-en']
+Example of usage:
+	`load_dataset('wmt15', 'cs-en')`"
+40,scb_mt_enth_2020,"Config name is missing.
+Please pick one among the available configs: ['enth', 'then']
+Example of usage:
+	`load_dataset('scb_mt_enth2020', 'enth')`"
+41,hyperpartisan_news_detection,"Config name is missing.
+Please pick one among the available configs: ['byarticle', 'bypublisher']
+Example of usage:
+	`load_dataset('hyperpartisan_news_detection', 'byarticle')`"
+42,code_x_glue_cc_code_completion_token,"Config name is missing.
+Please pick one among the available configs: ['java', 'python']
+Example of usage:
+	`load_dataset('code_x_glue_cc_code_completion_token', 'java')`"
+43,flue,"Config name is missing.
+Please pick one among the available configs: ['CLS', 'PAWS-X', 'XNLI', 'WSD-V']
+Example of usage:
+	`load_dataset('flue', 'CLS')`"
+44,asset,https://github.com/facebookresearch/asset/raw/master/dataset/asset.valid.simp.0
+45,subjqa,"Config name is missing.
+Please pick one among the available configs: ['books', 'electronics', 'grocery', 'movies', 'restaurants', 'tripadvisor']
+Example of usage:
+	`load_dataset('subjqa', 'books')`"
+46,europa_ecdc_tm,"Config name is missing.
+Please pick one among the available configs: ['en2bg', 'en2fr', 'en2sl']
+Example of usage:
+	`load_dataset('europa_ecdc_tm', 'en2bg')`"
+47,swedish_medical_ner,"Config name is missing.
+Please pick one among the available configs: ['wiki', 'lt', '1177']
+Example of usage:
+	`load_dataset('swedish_medical_ner', 'wiki')`"
+48,kinnews_kirnews,"Config name is missing.
+Please pick one among the available configs: ['kinnews_raw', 'kinnews_cleaned', 'kirnews_raw', 'kirnews_cleaned']
+Example of usage:
+	`load_dataset('kinnews_kirnews', 'kinnews_raw')`"
+49,math_dataset,"Config name is missing.
+Please pick one among the available configs: ['algebra__linear_1d', 'algebra__linear_1d_composed', 'algebra__linear_2d', 'algebra__linear_2d_composed', 'algebra__polynomial_roots', 'algebra__polynomial_roots_composed', 'algebra__sequence_next_term', 'algebra__sequence_nth_term', 'arithmetic__add_or_sub', 'arithmetic__add_or_sub_in_base', 'arithmetic__add_sub_multiple', 'arithmetic__div', 'arithmetic__mixed', 'arithmetic__mul', 'arithmetic__mul_div_multiple', 'arithmetic__nearest_integer_root', 'arithmetic__simplify_surd', 'calculus__differentiate', 'calculus__differentiate_composed', 'comparison__closest', 'comparison__closest_composed', 'comparison__kth_biggest', 'comparison__kth_biggest_composed', 'comparison__pair', 'comparison__pair_composed', 'comparison__sort', 'comparison__sort_composed', 'measurement__conversion', 'measurement__time', 'numbers__base_conversion', 'numbers__div_remainder', 'numbers__div_remainder_composed', 'numbers__gcd', 'numbers__gcd_composed', 'numbers__is_factor', 'numbers__is_factor_composed', 'numbers__is_prime', 'numbers__is_prime_composed', 'numbers__lcm', 'numbers__lcm_composed', 'numbers__list_prime_factors', 'numbers__list_prime_factors_composed', 'numbers__place_value', 'numbers__place_value_composed', 'numbers__round_number', 'numbers__round_number_composed', 'polynomials__add', 'polynomials__coefficient_named', 'polynomials__collect', 'polynomials__compose', 'polynomials__evaluate', 'polynomials__evaluate_composed', 'polynomials__expand', 'polynomials__simplify_power', 'probability__swr_p_level_set', 'probability__swr_p_sequence']
+Example of usage:
+	`load_dataset('math_dataset', 'algebra__linear_1d')`"
+50,big_patent,Extraction protocol for TAR archives like 'gzip://uc?export=download&id=1J3mucMFTWrgAYa3LuBZoLRR3CzzYD3fa/bigPatentData/train.tar.gz::https://drive.google.com/uc?export=download&id=1J3mucMFTWrgAYa3LuBZoLRR3CzzYD3fa' is not implemented in streaming mode. Please use `dl_manager.iter_archive` instead.
+51,un_pc,"Config name is missing.
+Please pick one among the available configs: ['ar-en', 'ar-es', 'ar-fr', 'ar-ru', 'ar-zh', 'en-es', 'en-fr', 'en-ru', 'en-zh', 'es-fr', 'es-ru', 'es-zh', 'fr-ru', 'fr-zh', 'ru-zh']
+Example of usage:
+	`load_dataset('un_pc', 'ar-en')`"
+52,jfleg,"Bad split: train. Available splits: ['validation', 'test']"
+53,librispeech_asr,"Config name is missing.
+Please pick one among the available configs: ['clean', 'other']
+Example of usage:
+	`load_dataset('librispeech_asr', 'clean')`"
+54,code_x_glue_tt_text_to_text,"Config name is missing.
+Please pick one among the available configs: ['da_en', 'lv_en', 'no_en', 'zh_en']
+Example of usage:
+	`load_dataset('code_x_glue_tt_text_to_text', 'da_en')`"
+55,xcsr,"Config name is missing.
+Please pick one among the available configs: ['X-CSQA-en', 'X-CSQA-zh', 'X-CSQA-de', 'X-CSQA-es', 'X-CSQA-fr', 'X-CSQA-it', 'X-CSQA-jap', 'X-CSQA-nl', 'X-CSQA-pl', 'X-CSQA-pt', 'X-CSQA-ru', 'X-CSQA-ar', 'X-CSQA-vi', 'X-CSQA-hi', 'X-CSQA-sw', 'X-CSQA-ur', 'X-CODAH-en', 'X-CODAH-zh', 'X-CODAH-de', 'X-CODAH-es', 'X-CODAH-fr', 'X-CODAH-it', 'X-CODAH-jap', 'X-CODAH-nl', 'X-CODAH-pl', 'X-CODAH-pt', 'X-CODAH-ru', 'X-CODAH-ar', 'X-CODAH-vi', 'X-CODAH-hi', 'X-CODAH-sw', 'X-CODAH-ur']
+Example of usage:
+	`load_dataset('xcsr', 'X-CSQA-en')`"
+56,twi_wordsim353,Bad split: train. Available splits: ['test']
+57,openwebtext,2
+58,wmt16,"Config name is missing.
+Please pick one among the available configs: ['cs-en', 'de-en', 'fi-en', 'ro-en', 'ru-en', 'tr-en']
+Example of usage:
+	`load_dataset('wmt16', 'cs-en')`"
+59,pg19,'StreamingDownloadManager' object has no attribute 'download_custom'
+60,mlsum,"Config name is missing.
+Please pick one among the available configs: ['de', 'es', 'fr', 'ru', 'tu']
+Example of usage:
+	`load_dataset('mlsum', 'de')`"
+61,qa4mre,"Config name is missing.
+Please pick one among the available configs: ['2011.main.DE', '2011.main.EN', '2011.main.ES', '2011.main.IT', '2011.main.RO', '2012.main.AR', '2012.main.BG', '2012.main.DE', '2012.main.EN', '2012.main.ES', '2012.main.IT', '2012.main.RO', '2012.alzheimers.EN', '2013.main.AR', '2013.main.BG', '2013.main.EN', '2013.main.ES', '2013.main.RO', '2013.alzheimers.EN', '2013.entrance_exam.EN']
+Example of usage:
+	`load_dataset('qa4mre', '2011.main.DE')`"
+62,the_pile_openwebtext2,"To be able to use the_pile_openwebtext2, you need to install the following dependencies['zstandard'] using 'pip install zstandard' for instance'"
+63,medical_dialog,"Config name is missing.
+Please pick one among the available configs: ['en', 'zh']
+Example of usage:
+	`load_dataset('medical_dialog', 'en')`"
+64,msr_text_compression,"The dataset msr_text_compression with config default requires manual data.
+                    Please follow the manual download instructions:
+                       You should download the dataset from https://www.microsoft.com/en-us/download/details.aspx?id=54262
+  The webpage requires registration.
+  Unzip and please put the files from the extracted RawData folder under the following names
+  train.tsv, valid.tsv, and test.tsv in a dir of your choice,
+  which will be used as a manual_dir, e.g. `~/.manual_dir/msr_text_compression`
+  The data can then be loaded via:
+  `datasets.load_dataset(""msr_text_compression"", data_dir=""~/.manual_dir/msr_text_compression"")`.
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(msr_text_compression, data_dir='<path/to/manual/data>')"
+65,mbpp,Bad split: train. Available splits: ['test']
+66,irc_disentangle,Cannot seek streaming HTTP file
+67,wmt17,"Config name is missing.
+Please pick one among the available configs: ['cs-en', 'de-en', 'fi-en', 'lv-en', 'ru-en', 'tr-en', 'zh-en']
+Example of usage:
+	`load_dataset('wmt17', 'cs-en')`"
+68,reuters21578,"Config name is missing.
+Please pick one among the available configs: ['ModHayes', 'ModLewis', 'ModApte']
+Example of usage:
+	`load_dataset('reuters21578', 'ModHayes')`"
+69,wino_bias,"Config name is missing.
+Please pick one among the available configs: ['type1_pro', 'type1_anti', 'type2_pro', 'type2_anti']
+Example of usage:
+	`load_dataset('wino_bias', 'type1_pro')`"
+70,klue,"Config name is missing.
+Please pick one among the available configs: ['ynat', 'sts', 'nli', 'ner', 're', 'dp', 'mrc', 'wos']
+Example of usage:
+	`load_dataset('klue', 'ynat')`"
+71,docred,"Bad split: train. Available splits: ['validation', 'test', 'train_annotated', 'train_distant']"
+72,superb,"Config name is missing.
+Please pick one among the available configs: ['asr', 'ks', 'ic', 'si', 'sd', 'er']
+Example of usage:
+	`load_dataset('superb', 'asr')`"
+73,amazon_us_reviews,"Config name is missing.
+Please pick one among the available configs: ['Wireless_v1_00', 'Watches_v1_00', 'Video_Games_v1_00', 'Video_DVD_v1_00', 'Video_v1_00', 'Toys_v1_00', 'Tools_v1_00', 'Sports_v1_00', 'Software_v1_00', 'Shoes_v1_00', 'Pet_Products_v1_00', 'Personal_Care_Appliances_v1_00', 'PC_v1_00', 'Outdoors_v1_00', 'Office_Products_v1_00', 'Musical_Instruments_v1_00', 'Music_v1_00', 'Mobile_Electronics_v1_00', 'Mobile_Apps_v1_00', 'Major_Appliances_v1_00', 'Luggage_v1_00', 'Lawn_and_Garden_v1_00', 'Kitchen_v1_00', 'Jewelry_v1_00', 'Home_Improvement_v1_00', 'Home_Entertainment_v1_00', 'Home_v1_00', 'Health_Personal_Care_v1_00', 'Grocery_v1_00', 'Gift_Card_v1_00', 'Furniture_v1_00', 'Electronics_v1_00', 'Digital_Video_Games_v1_00', 'Digital_Video_Download_v1_00', 'Digital_Software_v1_00', 'Digital_Music_Purchase_v1_00', 'Digital_Ebook_Purchase_v1_00', 'Camera_v1_00', 'Books_v1_00', 'Beauty_v1_00', 'Baby_v1_00', 'Automotive_v1_00', 'Apparel_v1_00', 'Digital_Ebook_Purchase_v1_01', 'Books_v1_01', 'Books_v1_02']
+Example of usage:
+	`load_dataset('amazon_us_reviews', 'Wireless_v1_00')`"
+74,humicroedit,"Config name is missing.
+Please pick one among the available configs: ['subtask-1', 'subtask-2']
+Example of usage:
+	`load_dataset('humicroedit', 'subtask-1')`"
+75,imppres,"Config name is missing.
+Please pick one among the available configs: ['presupposition_all_n_presupposition', 'presupposition_both_presupposition', 'presupposition_change_of_state', 'presupposition_cleft_existence', 'presupposition_cleft_uniqueness', 'presupposition_only_presupposition', 'presupposition_possessed_definites_existence', 'presupposition_possessed_definites_uniqueness', 'presupposition_question_presupposition', 'implicature_connectives', 'implicature_gradable_adjective', 'implicature_gradable_verb', 'implicature_modals', 'implicature_numerals_10_100', 'implicature_numerals_2_3', 'implicature_quantifiers']
+Example of usage:
+	`load_dataset('imppres', 'presupposition_all_n_presupposition')`"
+76,crows_pairs,Bad split: train. Available splits: ['test']
+77,kde4,"Config name is missing.
+Please pick one among the available configs: ['fi-nl', 'it-ro', 'nl-sv', 'en-it', 'en-fr']
+Example of usage:
+	`load_dataset('kde4', 'fi-nl')`"
+78,paws,"Config name is missing.
+Please pick one among the available configs: ['labeled_final', 'labeled_swap', 'unlabeled_final']
+Example of usage:
+	`load_dataset('paws', 'labeled_final')`"
+79,arabic_billion_words,"Config name is missing.
+Please pick one among the available configs: ['Alittihad', 'Almasryalyoum', 'Almustaqbal', 'Alqabas', 'Echoroukonline', 'Ryiadh', 'Sabanews', 'SaudiYoum', 'Techreen', 'Youm7']
+Example of usage:
+	`load_dataset('arabic_billion_words', 'Alittihad')`"
+80,open_subtitles,"Config name is missing.
+Please pick one among the available configs: ['bs-eo', 'fr-hy', 'da-ru', 'en-hi', 'bn-is']
+Example of usage:
+	`load_dataset('open_subtitles', 'bs-eo')`"
+81,ms_marco,"Config name is missing.
+Please pick one among the available configs: ['v1.1', 'v2.1']
+Example of usage:
+	`load_dataset('ms_marco', 'v1.1')`"
+82,opus_dgt,"Config name is missing.
+Please pick one among the available configs: ['bg-ga', 'bg-hr', 'bg-sh', 'fi-ga', 'es-ga', 'ga-sh', 'hr-sk', 'mt-sh', 'hr-sv', 'ga-nl']
+Example of usage:
+	`load_dataset('opus_dgt', 'bg-ga')`"
+83,yelp_polarity,Extraction protocol for TAR archives like 'https://s3.amazonaws.com/fast-ai-nlp/yelp_review_polarity_csv.tgz' is not implemented in streaming mode. Please use `dl_manager.iter_archive` instead.
+84,opus_openoffice,"Config name is missing.
+Please pick one among the available configs: ['de-en_GB', 'de-es', 'de-fr', 'de-ja', 'de-ru', 'de-sv', 'de-zh_CN', 'en_GB-es', 'en_GB-fr', 'en_GB-ja', 'en_GB-ru', 'en_GB-sv', 'en_GB-zh_CN', 'es-fr', 'es-ja', 'es-ru', 'es-sv', 'es-zh_CN', 'fr-ja', 'fr-ru', 'fr-sv', 'fr-zh_CN', 'ja-ru', 'ja-sv', 'ja-zh_CN', 'ru-sv', 'ru-zh_CN', 'sv-zh_CN']
+Example of usage:
+	`load_dataset('opus_openoffice', 'de-en_GB')`"
+85,xed_en_fi,"Config name is missing.
+Please pick one among the available configs: ['en_annotated', 'en_neutral', 'fi_annotated', 'fi_neutral']
+Example of usage:
+	`load_dataset('xed_en_fi', 'en_annotated')`"
+86,turkish_shrinked_ner,"The dataset turkish_shrinked_ner with config default requires manual data.
+                    Please follow the manual download instructions:
+                         You need to go to https://www.kaggle.com/behcetsenturk/shrinked-twnertc-turkish-ner-data-by-kuzgunlar,
+    and manually download the turkish_shrinked_ner. Once it is completed,
+    a file named archive.zip will be appeared in your Downloads folder
+    or whichever folder your browser chooses to save files to. You then have
+    to unzip the file and move train.txt under <path/to/folder>.
+    The <path/to/folder> can e.g. be ""~/manual_data"".
+    turkish_shrinked_ner can then be loaded using the following command `datasets.load_dataset(""turkish_shrinked_ner"", data_dir=""<path/to/folder>"")`.
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(turkish_shrinked_ner, data_dir='<path/to/manual/data>')"
+87,code_x_glue_cc_cloze_testing_all,"Config name is missing.
+Please pick one among the available configs: ['go', 'java', 'javascript', 'php', 'python', 'ruby']
+Example of usage:
+	`load_dataset('code_x_glue_cc_cloze_testing_all', 'go')`"
+88,pec,"Config name is missing.
+Please pick one among the available configs: ['happy', 'offmychest', 'all']
+Example of usage:
+	`load_dataset('pec', 'happy')`"
+89,jnlpba,Extraction protocol for TAR archives like 'http://www.nactem.ac.uk/GENIA/current/Shared-tasks/JNLPBA/Train/Genia4ERtraining.tar.gz' is not implemented in streaming mode. Please use `dl_manager.iter_archive` instead.
+90,eu_regulatory_ir,"Config name is missing.
+Please pick one among the available configs: ['eu2uk', 'uk2eu']
+Example of usage:
+	`load_dataset('eu_regulatory_ir', 'eu2uk')`"
+91,multi_re_qa,"Config name is missing.
+Please pick one among the available configs: ['SearchQA', 'TriviaQA', 'HotpotQA', 'SQuAD', 'NaturalQuestions', 'BioASQ', 'RelationExtraction', 'TextbookQA', 'DuoRC']
+Example of usage:
+	`load_dataset('multi_re_qa', 'SearchQA')`"
+92,polsum,"Path ""http://zil.ipipan.waw.pl/PolishSummariesCorpus?action=AttachFile&do=get&target=PSC_1.0.zip/*/*/*.xml"" did not resolve to exactlyone file: ""<List of 0 OpenFile instances>"""
+93,arxiv_dataset,"The dataset arxiv_dataset with config default requires manual data.
+                    Please follow the manual download instructions:
+                         You need to go to https://www.kaggle.com/Cornell-University/arxiv,
+    and manually download the dataset. Once it is completed,
+    a zip folder named archive.zip will be appeared in your Downloads folder
+    or whichever folder your browser chooses to save files to. Extract that folder
+    and you would get a arxiv-metadata-oai-snapshot.json file
+    You can then move that file under <path/to/folder>.
+    The <path/to/folder> can e.g. be ""~/manual_data"".
+    arxiv_dataset can then be loaded using the following command `datasets.load_dataset(""arxiv_dataset"", data_dir=""<path/to/folder>"")`.
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(arxiv_dataset, data_dir='<path/to/manual/data>')"
+94,clinc_oos,"Config name is missing.
+Please pick one among the available configs: ['small', 'imbalanced', 'plus']
+Example of usage:
+	`load_dataset('clinc_oos', 'small')`"
+95,nli_tr,"Config name is missing.
+Please pick one among the available configs: ['snli_tr', 'multinli_tr']
+Example of usage:
+	`load_dataset('nli_tr', 'snli_tr')`"
+96,multilingual_librispeech,"Config name is missing.
+Please pick one among the available configs: ['german', 'dutch', 'french', 'spanish', 'italian', 'portuguese', 'polish']
+Example of usage:
+	`load_dataset('multilingual_librispeech', 'german')`"
+97,wikipedia,"Config name is missing.
+Please pick one among the available configs: ['20200501.aa', '20200501.ab', '20200501.ace', '20200501.ady', '20200501.af', '20200501.ak', '20200501.als', '20200501.am', '20200501.an', '20200501.ang', '20200501.ar', '20200501.arc', '20200501.arz', '20200501.as', '20200501.ast', '20200501.atj', '20200501.av', '20200501.ay', '20200501.az', '20200501.azb', '20200501.ba', '20200501.bar', '20200501.bat-smg', '20200501.bcl', '20200501.be', '20200501.be-x-old', '20200501.bg', '20200501.bh', '20200501.bi', '20200501.bjn', '20200501.bm', '20200501.bn', '20200501.bo', '20200501.bpy', '20200501.br', '20200501.bs', '20200501.bug', '20200501.bxr', '20200501.ca', '20200501.cbk-zam', '20200501.cdo', '20200501.ce', '20200501.ceb', '20200501.ch', '20200501.cho', '20200501.chr', '20200501.chy', '20200501.ckb', '20200501.co', '20200501.cr', '20200501.crh', '20200501.cs', '20200501.csb', '20200501.cu', '20200501.cv', '20200501.cy', '20200501.da', '20200501.de', '20200501.din', '20200501.diq', '20200501.dsb', '20200501.dty', '20200501.dv', '20200501.dz', '20200501.ee', '20200501.el', '20200501.eml', '20200501.en', '20200501.eo', '20200501.es', '20200501.et', '20200501.eu', '20200501.ext', '20200501.fa', '20200501.ff', '20200501.fi', '20200501.fiu-vro', '20200501.fj', '20200501.fo', '20200501.fr', '20200501.frp', '20200501.frr', '20200501.fur', '20200501.fy', '20200501.ga', '20200501.gag', '20200501.gan', '20200501.gd', '20200501.gl', '20200501.glk', '20200501.gn', '20200501.gom', '20200501.gor', '20200501.got', '20200501.gu', '20200501.gv', '20200501.ha', '20200501.hak', '20200501.haw', '20200501.he', '20200501.hi', '20200501.hif', '20200501.ho', '20200501.hr', '20200501.hsb', '20200501.ht', '20200501.hu', '20200501.hy', '20200501.ia', '20200501.id', '20200501.ie', '20200501.ig', '20200501.ii', '20200501.ik', '20200501.ilo', '20200501.inh', '20200501.io', '20200501.is', '20200501.it', '20200501.iu', '20200501.ja', '20200501.jam', '20200501.jbo', '20200501.jv', '20200501.ka', '20200501.kaa', '20200501.kab', '20200501.kbd', '20200501.kbp', '20200501.kg', '20200501.ki', '20200501.kj', '20200501.kk', '20200501.kl', '20200501.km', '20200501.kn', '20200501.ko', '20200501.koi', '20200501.krc', '20200501.ks', '20200501.ksh', '20200501.ku', '20200501.kv', '20200501.kw', '20200501.ky', '20200501.la', '20200501.lad', '20200501.lb', '20200501.lbe', '20200501.lez', '20200501.lfn', '20200501.lg', '20200501.li', '20200501.lij', '20200501.lmo', '20200501.ln', '20200501.lo', '20200501.lrc', '20200501.lt', '20200501.ltg', '20200501.lv', '20200501.mai', '20200501.map-bms', '20200501.mdf', '20200501.mg', '20200501.mh', '20200501.mhr', '20200501.mi', '20200501.min', '20200501.mk', '20200501.ml', '20200501.mn', '20200501.mr', '20200501.mrj', '20200501.ms', '20200501.mt', '20200501.mus', '20200501.mwl', '20200501.my', '20200501.myv', '20200501.mzn', '20200501.na', '20200501.nah', '20200501.nap', '20200501.nds', '20200501.nds-nl', '20200501.ne', '20200501.new', '20200501.ng', '20200501.nl', '20200501.nn', '20200501.no', '20200501.nov', '20200501.nrm', '20200501.nso', '20200501.nv', '20200501.ny', '20200501.oc', '20200501.olo', '20200501.om', '20200501.or', '20200501.os', '20200501.pa', '20200501.pag', '20200501.pam', '20200501.pap', '20200501.pcd', '20200501.pdc', '20200501.pfl', '20200501.pi', '20200501.pih', '20200501.pl', '20200501.pms', '20200501.pnb', '20200501.pnt', '20200501.ps', '20200501.pt', '20200501.qu', '20200501.rm', '20200501.rmy', '20200501.rn', '20200501.ro', '20200501.roa-rup', '20200501.roa-tara', '20200501.ru', '20200501.rue', '20200501.rw', '20200501.sa', '20200501.sah', '20200501.sat', '20200501.sc', '20200501.scn', '20200501.sco', '20200501.sd', '20200501.se', '20200501.sg', '20200501.sh', '20200501.si', '20200501.simple', '20200501.sk', '20200501.sl', '20200501.sm', '20200501.sn', '20200501.so', '20200501.sq', '20200501.sr', '20200501.srn', '20200501.ss', '20200501.st', '20200501.stq', '20200501.su', '20200501.sv', '20200501.sw', '20200501.szl', '20200501.ta', '20200501.tcy', '20200501.te', '20200501.tet', '20200501.tg', '20200501.th', '20200501.ti', '20200501.tk', '20200501.tl', '20200501.tn', '20200501.to', '20200501.tpi', '20200501.tr', '20200501.ts', '20200501.tt', '20200501.tum', '20200501.tw', '20200501.ty', '20200501.tyv', '20200501.udm', '20200501.ug', '20200501.uk', '20200501.ur', '20200501.uz', '20200501.ve', '20200501.vec', '20200501.vep', '20200501.vi', '20200501.vls', '20200501.vo', '20200501.wa', '20200501.war', '20200501.wo', '20200501.wuu', '20200501.xal', '20200501.xh', '20200501.xmf', '20200501.yi', '20200501.yo', '20200501.za', '20200501.zea', '20200501.zh', '20200501.zh-classical', '20200501.zh-min-nan', '20200501.zh-yue', '20200501.zu']
+Example of usage:
+	`load_dataset('wikipedia', '20200501.aa')`"
+98,cail2018,"Bad split: train. Available splits: ['exercise_contest_train', 'exercise_contest_valid', 'exercise_contest_test', 'first_stage_train', 'first_stage_test', 'final_test']"
+99,opus100,"Config name is missing.
+Please pick one among the available configs: ['af-en', 'am-en', 'an-en', 'ar-en', 'as-en', 'az-en', 'be-en', 'bg-en', 'bn-en', 'br-en', 'bs-en', 'ca-en', 'cs-en', 'cy-en', 'da-en', 'de-en', 'dz-en', 'el-en', 'en-eo', 'en-es', 'en-et', 'en-eu', 'en-fa', 'en-fi', 'en-fr', 'en-fy', 'en-ga', 'en-gd', 'en-gl', 'en-gu', 'en-ha', 'en-he', 'en-hi', 'en-hr', 'en-hu', 'en-hy', 'en-id', 'en-ig', 'en-is', 'en-it', 'en-ja', 'en-ka', 'en-kk', 'en-km', 'en-ko', 'en-kn', 'en-ku', 'en-ky', 'en-li', 'en-lt', 'en-lv', 'en-mg', 'en-mk', 'en-ml', 'en-mn', 'en-mr', 'en-ms', 'en-mt', 'en-my', 'en-nb', 'en-ne', 'en-nl', 'en-nn', 'en-no', 'en-oc', 'en-or', 'en-pa', 'en-pl', 'en-ps', 'en-pt', 'en-ro', 'en-ru', 'en-rw', 'en-se', 'en-sh', 'en-si', 'en-sk', 'en-sl', 'en-sq', 'en-sr', 'en-sv', 'en-ta', 'en-te', 'en-tg', 'en-th', 'en-tk', 'en-tr', 'en-tt', 'en-ug', 'en-uk', 'en-ur', 'en-uz', 'en-vi', 'en-wa', 'en-xh', 'en-yi', 'en-yo', 'en-zh', 'en-zu', 'ar-de', 'ar-fr', 'ar-nl', 'ar-ru', 'ar-zh', 'de-fr', 'de-nl', 'de-ru', 'de-zh', 'fr-nl', 'fr-ru', 'fr-zh', 'nl-ru', 'nl-zh', 'ru-zh']
+Example of usage:
+	`load_dataset('opus100', 'af-en')`"
+100,natural_questions,"To be able to use natural_questions, you need to install the following dependencies['apache_beam'] using 'pip install apache_beam' for instance'"
+101,ncslgr,"Config name is missing.
+Please pick one among the available configs: ['entire_dataset', 'annotations']
+Example of usage:
+	`load_dataset('ncslgr', 'entire_dataset')`"
+102,php,"Config name is missing.
+Please pick one among the available configs: ['fi-nl', 'it-ro', 'nl-sv', 'en-it', 'en-fr']
+Example of usage:
+	`load_dataset('php', 'fi-nl')`"
+103,reclor,"The dataset reclor with config default requires manual data.
+                    Please follow the manual download instructions:
+                       to use ReClor you need to download it manually. Please go to its homepage (http://whyu.me/reclor/) fill the google
+  form and you will receive a download link and a password to extract it.Please extract all files in one folder and use the path folder in datasets.load_dataset('reclor', data_dir='path/to/folder/folder_name')
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(reclor, data_dir='<path/to/manual/data>')"
+104,paws-x,"Config name is missing.
+Please pick one among the available configs: ['en', 'de', 'es', 'fr', 'ja', 'ko', 'zh']
+Example of usage:
+	`load_dataset('pawsx', 'en')`"
+105,sofc_materials_articles,Cannot seek streaming HTTP file
+106,kilt_wikipedia,Bad split: train. Available splits: ['full']
+107,wiki_asp,"Config name is missing.
+Please pick one among the available configs: ['album', 'animal', 'artist', 'building', 'company', 'educational_institution', 'event', 'film', 'group', 'historic_place', 'infrastructure', 'mean_of_transportation', 'office_holder', 'plant', 'single', 'soccer_player', 'software', 'television_show', 'town', 'written_work']
+Example of usage:
+	`load_dataset('wiki_asp', 'album')`"
+108,ade_corpus_v2,"Config name is missing.
+Please pick one among the available configs: ['Ade_corpus_v2_classification', 'Ade_corpus_v2_drug_ade_relation', 'Ade_corpus_v2_drug_dosage_relation']
+Example of usage:
+	`load_dataset('ade_corpus_v2', 'Ade_corpus_v2_classification')`"
+109,offenseval_dravidian,"Config name is missing.
+Please pick one among the available configs: ['tamil', 'malayalam', 'kannada']
+Example of usage:
+	`load_dataset('offenseval_dravidian', 'tamil')`"
+110,autshumato,"Config name is missing.
+Please pick one among the available configs: ['autshumato-en-tn', 'autshumato-en-zu', 'autshumato-en-ts', 'autshumato-en-ts-manual', 'autshumato-tn', 'autshumato-ts']
+Example of usage:
+	`load_dataset('autshumato', 'autshumato-en-tn')`"
+111,ted_hrlr,"Config name is missing.
+Please pick one among the available configs: ['az_to_en', 'aztr_to_en', 'be_to_en', 'beru_to_en', 'es_to_pt', 'fr_to_pt', 'gl_to_en', 'glpt_to_en', 'he_to_pt', 'it_to_pt', 'pt_to_en', 'ru_to_en', 'ru_to_pt', 'tr_to_en']
+Example of usage:
+	`load_dataset('ted_hrlr', 'az_to_en')`"
+112,qangaroo,"Config name is missing.
+Please pick one among the available configs: ['medhop', 'masked_medhop', 'wikihop', 'masked_wikihop']
+Example of usage:
+	`load_dataset('qangaroo', 'medhop')`"
+113,c3,"Config name is missing.
+Please pick one among the available configs: ['mixed', 'dialog']
+Example of usage:
+	`load_dataset('c3', 'mixed')`"
+114,few_rel,"Bad split: train. Available splits: ['train_wiki', 'val_nyt', 'val_pubmed', 'val_semeval', 'val_wiki', 'pubmed_unsupervised']"
+115,opus_euconst,"Config name is missing.
+Please pick one among the available configs: ['cs-da', 'cs-de', 'cs-el', 'cs-en', 'cs-es', 'cs-et', 'cs-fi', 'cs-fr', 'cs-ga', 'cs-hu', 'cs-it', 'cs-lt', 'cs-lv', 'cs-mt', 'cs-nl', 'cs-pl', 'cs-pt', 'cs-sk', 'cs-sl', 'cs-sv', 'da-de', 'da-el', 'da-en', 'da-es', 'da-et', 'da-fi', 'da-fr', 'da-ga', 'da-hu', 'da-it', 'da-lt', 'da-lv', 'da-mt', 'da-nl', 'da-pl', 'da-pt', 'da-sk', 'da-sl', 'da-sv', 'de-el', 'de-en', 'de-es', 'de-et', 'de-fi', 'de-fr', 'de-ga', 'de-hu', 'de-it', 'de-lt', 'de-lv', 'de-mt', 'de-nl', 'de-pl', 'de-pt', 'de-sk', 'de-sl', 'de-sv', 'el-en', 'el-es', 'el-et', 'el-fi', 'el-fr', 'el-ga', 'el-hu', 'el-it', 'el-lt', 'el-lv', 'el-mt', 'el-nl', 'el-pl', 'el-pt', 'el-sk', 'el-sl', 'el-sv', 'en-es', 'en-et', 'en-fi', 'en-fr', 'en-ga', 'en-hu', 'en-it', 'en-lt', 'en-lv', 'en-mt', 'en-nl', 'en-pl', 'en-pt', 'en-sk', 'en-sl', 'en-sv', 'es-et', 'es-fi', 'es-fr', 'es-ga', 'es-hu', 'es-it', 'es-lt', 'es-lv', 'es-mt', 'es-nl', 'es-pl', 'es-pt', 'es-sk', 'es-sl', 'es-sv', 'et-fi', 'et-fr', 'et-ga', 'et-hu', 'et-it', 'et-lt', 'et-lv', 'et-mt', 'et-nl', 'et-pl', 'et-pt', 'et-sk', 'et-sl', 'et-sv', 'fi-fr', 'fi-ga', 'fi-hu', 'fi-it', 'fi-lt', 'fi-lv', 'fi-mt', 'fi-nl', 'fi-pl', 'fi-pt', 'fi-sk', 'fi-sl', 'fi-sv', 'fr-ga', 'fr-hu', 'fr-it', 'fr-lt', 'fr-lv', 'fr-mt', 'fr-nl', 'fr-pl', 'fr-pt', 'fr-sk', 'fr-sl', 'fr-sv', 'ga-hu', 'ga-it', 'ga-lt', 'ga-lv', 'ga-mt', 'ga-nl', 'ga-pl', 'ga-pt', 'ga-sk', 'ga-sl', 'ga-sv', 'hu-it', 'hu-lt', 'hu-lv', 'hu-mt', 'hu-nl', 'hu-pl', 'hu-pt', 'hu-sk', 'hu-sl', 'hu-sv', 'it-lt', 'it-lv', 'it-mt', 'it-nl', 'it-pl', 'it-pt', 'it-sk', 'it-sl', 'it-sv', 'lt-lv', 'lt-mt', 'lt-nl', 'lt-pl', 'lt-pt', 'lt-sk', 'lt-sl', 'lt-sv', 'lv-mt', 'lv-nl', 'lv-pl', 'lv-pt', 'lv-sk', 'lv-sl', 'lv-sv', 'mt-nl', 'mt-pl', 'mt-pt', 'mt-sk', 'mt-sl', 'mt-sv', 'nl-pl', 'nl-pt', 'nl-sk', 'nl-sl', 'nl-sv', 'pl-pt', 'pl-sk', 'pl-sl', 'pl-sv', 'pt-sk', 'pt-sl', 'pt-sv', 'sk-sl', 'sk-sv', 'sl-sv']
+Example of usage:
+	`load_dataset('opus_euconst', 'cs-da')`"
+116,tatoeba,"Config name is missing.
+Please pick one among the available configs: ['en-mr', 'eo-nl', 'es-pt', 'fr-ru', 'es-gl']
+Example of usage:
+	`load_dataset('tatoeba', 'en-mr')`"
+117,code_x_glue_ct_code_to_text,"Config name is missing.
+Please pick one among the available configs: ['go', 'java', 'javascript', 'php', 'python', 'ruby']
+Example of usage:
+	`load_dataset('code_x_glue_ct_code_to_text', 'go')`"
+118,anli,"Bad split: train. Available splits: ['train_r1', 'dev_r1', 'test_r1', 'train_r2', 'dev_r2', 'test_r2', 'train_r3', 'dev_r3', 'test_r3']"
+119,orange_sum,"Config name is missing.
+Please pick one among the available configs: ['abstract', 'title']
+Example of usage:
+	`load_dataset('orange_sum', 'abstract')`"
+120,turk,"Bad split: train. Available splits: ['validation', 'test']"
+121,cdsc,"Config name is missing.
+Please pick one among the available configs: ['cdsc-e', 'cdsc-r']
+Example of usage:
+	`load_dataset('cdsc', 'cdsc-e')`"
+122,scielo,"Config name is missing.
+Please pick one among the available configs: ['en-es', 'en-pt', 'en-pt-es']
+Example of usage:
+	`load_dataset('scielo', 'en-es')`"
+123,ted_talks_iwslt,"Config name is missing.
+Please pick one among the available configs: ['eu_ca_2014', 'eu_ca_2015', 'eu_ca_2016', 'nl_en_2014', 'nl_en_2015', 'nl_en_2016', 'nl_hi_2014', 'nl_hi_2015', 'nl_hi_2016', 'de_ja_2014', 'de_ja_2015', 'de_ja_2016', 'fr-ca_hi_2014', 'fr-ca_hi_2015', 'fr-ca_hi_2016']
+Example of usage:
+	`load_dataset('ted_talks_iwslt', 'eu_ca_2014')`"
+124,europa_eac_tm,"Config name is missing.
+Please pick one among the available configs: ['en2bg', 'en2es', 'en2fr']
+Example of usage:
+	`load_dataset('europa_eac_tm', 'en2bg')`"
+125,biomrc,"Config name is missing.
+Please pick one among the available configs: ['biomrc_large_A', 'biomrc_large_B', 'biomrc_small_A', 'biomrc_small_B', 'biomrc_tiny_A', 'biomrc_tiny_B']
+Example of usage:
+	`load_dataset('biomrc', 'biomrc_large_A')`"
+126,winogrande,"Config name is missing.
+Please pick one among the available configs: ['winogrande_xs', 'winogrande_s', 'winogrande_m', 'winogrande_l', 'winogrande_xl', 'winogrande_debiased']
+Example of usage:
+	`load_dataset('winogrande', 'winogrande_xs')`"
+127,covid_qa_ucsd,"Config name is missing.
+Please pick one among the available configs: ['en', 'zh']
+Example of usage:
+	`load_dataset('covid_qa_ucsd', 'en')`"
+128,scitail,"Config name is missing.
+Please pick one among the available configs: ['snli_format', 'tsv_format', 'dgem_format', 'predictor_format']
+Example of usage:
+	`load_dataset('scitail', 'snli_format')`"
+129,qanta,"Config name is missing.
+Please pick one among the available configs: ['mode=full,char_skip=25', 'mode=first,char_skip=25', 'mode=sentences,char_skip=25', 'mode=runs,char_skip=25']
+Example of usage:
+	`load_dataset('qanta', 'mode=full,char_skip=25')`"
+130,openslr,"Config name is missing.
+Please pick one among the available configs: ['SLR32', 'SLR35', 'SLR36', 'SLR41', 'SLR42', 'SLR43', 'SLR44', 'SLR52', 'SLR53', 'SLR54', 'SLR63', 'SLR64', 'SLR65', 'SLR66', 'SLR69', 'SLR70', 'SLR71', 'SLR72', 'SLR73', 'SLR74', 'SLR75', 'SLR76', 'SLR77', 'SLR78', 'SLR79', 'SLR80', 'SLR86']
+Example of usage:
+	`load_dataset('open_slr', 'SLR32')`"
+131,sem_eval_2018_task_1,"Config name is missing.
+Please pick one among the available configs: ['subtask5.english', 'subtask5.spanish', 'subtask5.arabic']
+Example of usage:
+	`load_dataset('sem_eval2018_task1', 'subtask5.english')`"
+132,stereoset,"Config name is missing.
+Please pick one among the available configs: ['intersentence', 'intrasentence']
+Example of usage:
+	`load_dataset('stereoset', 'intersentence')`"
+133,codah,"Config name is missing.
+Please pick one among the available configs: ['codah', 'fold_0', 'fold_1', 'fold_2', 'fold_3', 'fold_4']
+Example of usage:
+	`load_dataset('codah', 'codah')`"
+134,oscar,"Config name is missing.
+Please pick one among the available configs: ['unshuffled_deduplicated_af', 'unshuffled_deduplicated_als', 'unshuffled_deduplicated_am', 'unshuffled_deduplicated_an', 'unshuffled_deduplicated_ar', 'unshuffled_deduplicated_arz', 'unshuffled_deduplicated_as', 'unshuffled_deduplicated_ast', 'unshuffled_deduplicated_av', 'unshuffled_deduplicated_az', 'unshuffled_deduplicated_azb', 'unshuffled_deduplicated_ba', 'unshuffled_deduplicated_bar', 'unshuffled_deduplicated_bcl', 'unshuffled_deduplicated_be', 'unshuffled_deduplicated_bg', 'unshuffled_deduplicated_bh', 'unshuffled_deduplicated_bn', 'unshuffled_deduplicated_bo', 'unshuffled_deduplicated_bpy', 'unshuffled_deduplicated_br', 'unshuffled_deduplicated_bs', 'unshuffled_deduplicated_bxr', 'unshuffled_deduplicated_ca', 'unshuffled_deduplicated_cbk', 'unshuffled_deduplicated_ce', 'unshuffled_deduplicated_ceb', 'unshuffled_deduplicated_ckb', 'unshuffled_deduplicated_cs', 'unshuffled_deduplicated_cv', 'unshuffled_deduplicated_cy', 'unshuffled_deduplicated_da', 'unshuffled_deduplicated_de', 'unshuffled_deduplicated_diq', 'unshuffled_deduplicated_dsb', 'unshuffled_deduplicated_dv', 'unshuffled_deduplicated_el', 'unshuffled_deduplicated_eml', 'unshuffled_deduplicated_en', 'unshuffled_deduplicated_eo', 'unshuffled_deduplicated_es', 'unshuffled_deduplicated_et', 'unshuffled_deduplicated_eu', 'unshuffled_deduplicated_fa', 'unshuffled_deduplicated_fi', 'unshuffled_deduplicated_fr', 'unshuffled_deduplicated_frr', 'unshuffled_deduplicated_fy', 'unshuffled_deduplicated_ga', 'unshuffled_deduplicated_gd', 'unshuffled_deduplicated_gl', 'unshuffled_deduplicated_gn', 'unshuffled_deduplicated_gom', 'unshuffled_deduplicated_gu', 'unshuffled_deduplicated_he', 'unshuffled_deduplicated_hi', 'unshuffled_deduplicated_hr', 'unshuffled_deduplicated_hsb', 'unshuffled_deduplicated_ht', 'unshuffled_deduplicated_hu', 'unshuffled_deduplicated_hy', 'unshuffled_deduplicated_ia', 'unshuffled_deduplicated_id', 'unshuffled_deduplicated_ie', 'unshuffled_deduplicated_ilo', 'unshuffled_deduplicated_io', 'unshuffled_deduplicated_is', 'unshuffled_deduplicated_it', 'unshuffled_deduplicated_ja', 'unshuffled_deduplicated_jbo', 'unshuffled_deduplicated_jv', 'unshuffled_deduplicated_ka', 'unshuffled_deduplicated_kk', 'unshuffled_deduplicated_km', 'unshuffled_deduplicated_kn', 'unshuffled_deduplicated_ko', 'unshuffled_deduplicated_krc', 'unshuffled_deduplicated_ku', 'unshuffled_deduplicated_kv', 'unshuffled_deduplicated_kw', 'unshuffled_deduplicated_ky', 'unshuffled_deduplicated_la', 'unshuffled_deduplicated_lb', 'unshuffled_deduplicated_lez', 'unshuffled_deduplicated_li', 'unshuffled_deduplicated_lmo', 'unshuffled_deduplicated_lo', 'unshuffled_deduplicated_lrc', 'unshuffled_deduplicated_lt', 'unshuffled_deduplicated_lv', 'unshuffled_deduplicated_mai', 'unshuffled_deduplicated_mg', 'unshuffled_deduplicated_mhr', 'unshuffled_deduplicated_min', 'unshuffled_deduplicated_mk', 'unshuffled_deduplicated_ml', 'unshuffled_deduplicated_mn', 'unshuffled_deduplicated_mr', 'unshuffled_deduplicated_mrj', 'unshuffled_deduplicated_ms', 'unshuffled_deduplicated_mt', 'unshuffled_deduplicated_mwl', 'unshuffled_deduplicated_my', 'unshuffled_deduplicated_myv', 'unshuffled_deduplicated_mzn', 'unshuffled_deduplicated_nah', 'unshuffled_deduplicated_nap', 'unshuffled_deduplicated_nds', 'unshuffled_deduplicated_ne', 'unshuffled_deduplicated_new', 'unshuffled_deduplicated_nl', 'unshuffled_deduplicated_nn', 'unshuffled_deduplicated_no', 'unshuffled_deduplicated_oc', 'unshuffled_deduplicated_or', 'unshuffled_deduplicated_os', 'unshuffled_deduplicated_pa', 'unshuffled_deduplicated_pam', 'unshuffled_deduplicated_pl', 'unshuffled_deduplicated_pms', 'unshuffled_deduplicated_pnb', 'unshuffled_deduplicated_ps', 'unshuffled_deduplicated_pt', 'unshuffled_deduplicated_qu', 'unshuffled_deduplicated_rm', 'unshuffled_deduplicated_ro', 'unshuffled_deduplicated_ru', 'unshuffled_deduplicated_sa', 'unshuffled_deduplicated_sah', 'unshuffled_deduplicated_scn', 'unshuffled_deduplicated_sd', 'unshuffled_deduplicated_sh', 'unshuffled_deduplicated_si', 'unshuffled_deduplicated_sk', 'unshuffled_deduplicated_sl', 'unshuffled_deduplicated_so', 'unshuffled_deduplicated_sq', 'unshuffled_deduplicated_sr', 'unshuffled_deduplicated_su', 'unshuffled_deduplicated_sv', 'unshuffled_deduplicated_sw', 'unshuffled_deduplicated_ta', 'unshuffled_deduplicated_te', 'unshuffled_deduplicated_tg', 'unshuffled_deduplicated_th', 'unshuffled_deduplicated_tk', 'unshuffled_deduplicated_tl', 'unshuffled_deduplicated_tr', 'unshuffled_deduplicated_tt', 'unshuffled_deduplicated_tyv', 'unshuffled_deduplicated_ug', 'unshuffled_deduplicated_uk', 'unshuffled_deduplicated_ur', 'unshuffled_deduplicated_uz', 'unshuffled_deduplicated_vec', 'unshuffled_deduplicated_vi', 'unshuffled_deduplicated_vo', 'unshuffled_deduplicated_wa', 'unshuffled_deduplicated_war', 'unshuffled_deduplicated_wuu', 'unshuffled_deduplicated_xal', 'unshuffled_deduplicated_xmf', 'unshuffled_deduplicated_yi', 'unshuffled_deduplicated_yo', 'unshuffled_deduplicated_yue', 'unshuffled_deduplicated_zh', 'unshuffled_original_af', 'unshuffled_original_als', 'unshuffled_original_am', 'unshuffled_original_an', 'unshuffled_original_ar', 'unshuffled_original_arz', 'unshuffled_original_as', 'unshuffled_original_ast', 'unshuffled_original_av', 'unshuffled_original_az', 'unshuffled_original_azb', 'unshuffled_original_ba', 'unshuffled_original_bar', 'unshuffled_original_bcl', 'unshuffled_original_be', 'unshuffled_original_bg', 'unshuffled_original_bh', 'unshuffled_original_bn', 'unshuffled_original_bo', 'unshuffled_original_bpy', 'unshuffled_original_br', 'unshuffled_original_bs', 'unshuffled_original_bxr', 'unshuffled_original_ca', 'unshuffled_original_cbk', 'unshuffled_original_ce', 'unshuffled_original_ceb', 'unshuffled_original_ckb', 'unshuffled_original_cs', 'unshuffled_original_cv', 'unshuffled_original_cy', 'unshuffled_original_da', 'unshuffled_original_de', 'unshuffled_original_diq', 'unshuffled_original_dsb', 'unshuffled_original_dv', 'unshuffled_original_el', 'unshuffled_original_eml', 'unshuffled_original_en', 'unshuffled_original_eo', 'unshuffled_original_es', 'unshuffled_original_et', 'unshuffled_original_eu', 'unshuffled_original_fa', 'unshuffled_original_fi', 'unshuffled_original_fr', 'unshuffled_original_frr', 'unshuffled_original_fy', 'unshuffled_original_ga', 'unshuffled_original_gd', 'unshuffled_original_gl', 'unshuffled_original_gn', 'unshuffled_original_gom', 'unshuffled_original_gu', 'unshuffled_original_he', 'unshuffled_original_hi', 'unshuffled_original_hr', 'unshuffled_original_hsb', 'unshuffled_original_ht', 'unshuffled_original_hu', 'unshuffled_original_hy', 'unshuffled_original_ia', 'unshuffled_original_id', 'unshuffled_original_ie', 'unshuffled_original_ilo', 'unshuffled_original_io', 'unshuffled_original_is', 'unshuffled_original_it', 'unshuffled_original_ja', 'unshuffled_original_jbo', 'unshuffled_original_jv', 'unshuffled_original_ka', 'unshuffled_original_kk', 'unshuffled_original_km', 'unshuffled_original_kn', 'unshuffled_original_ko', 'unshuffled_original_krc', 'unshuffled_original_ku', 'unshuffled_original_kv', 'unshuffled_original_kw', 'unshuffled_original_ky', 'unshuffled_original_la', 'unshuffled_original_lb', 'unshuffled_original_lez', 'unshuffled_original_li', 'unshuffled_original_lmo', 'unshuffled_original_lo', 'unshuffled_original_lrc', 'unshuffled_original_lt', 'unshuffled_original_lv', 'unshuffled_original_mai', 'unshuffled_original_mg', 'unshuffled_original_mhr', 'unshuffled_original_min', 'unshuffled_original_mk', 'unshuffled_original_ml', 'unshuffled_original_mn', 'unshuffled_original_mr', 'unshuffled_original_mrj', 'unshuffled_original_ms', 'unshuffled_original_mt', 'unshuffled_original_mwl', 'unshuffled_original_my', 'unshuffled_original_myv', 'unshuffled_original_mzn', 'unshuffled_original_nah', 'unshuffled_original_nap', 'unshuffled_original_nds', 'unshuffled_original_ne', 'unshuffled_original_new', 'unshuffled_original_nl', 'unshuffled_original_nn', 'unshuffled_original_no', 'unshuffled_original_oc', 'unshuffled_original_or', 'unshuffled_original_os', 'unshuffled_original_pa', 'unshuffled_original_pam', 'unshuffled_original_pl', 'unshuffled_original_pms', 'unshuffled_original_pnb', 'unshuffled_original_ps', 'unshuffled_original_pt', 'unshuffled_original_qu', 'unshuffled_original_rm', 'unshuffled_original_ro', 'unshuffled_original_ru', 'unshuffled_original_sa', 'unshuffled_original_sah', 'unshuffled_original_scn', 'unshuffled_original_sd', 'unshuffled_original_sh', 'unshuffled_original_si', 'unshuffled_original_sk', 'unshuffled_original_sl', 'unshuffled_original_so', 'unshuffled_original_sq', 'unshuffled_original_sr', 'unshuffled_original_su', 'unshuffled_original_sv', 'unshuffled_original_sw', 'unshuffled_original_ta', 'unshuffled_original_te', 'unshuffled_original_tg', 'unshuffled_original_th', 'unshuffled_original_tk', 'unshuffled_original_tl', 'unshuffled_original_tr', 'unshuffled_original_tt', 'unshuffled_original_tyv', 'unshuffled_original_ug', 'unshuffled_original_uk', 'unshuffled_original_ur', 'unshuffled_original_uz', 'unshuffled_original_vec', 'unshuffled_original_vi', 'unshuffled_original_vo', 'unshuffled_original_wa', 'unshuffled_original_war', 'unshuffled_original_wuu', 'unshuffled_original_xal', 'unshuffled_original_xmf', 'unshuffled_original_yi', 'unshuffled_original_yo', 'unshuffled_original_yue', 'unshuffled_original_zh']
+Example of usage:
+	`load_dataset('oscar', 'unshuffled_deduplicated_af')`"
+135,xor_tydi_qa,"Config name is missing.
+Please pick one among the available configs: ['xor-retrieve', 'xor-full']
+Example of usage:
+	`load_dataset('xor_ty_di', 'xor-retrieve')`"
+136,samsum,"To be able to use samsum, you need to install the following dependencies['py7zr'] using 'pip install py7zr' for instance'"
+137,opus_wikipedia,"Config name is missing.
+Please pick one among the available configs: ['ar-en', 'ar-pl', 'en-sl', 'en-ru', 'en-vi']
+Example of usage:
+	`load_dataset('opus_wikipedia', 'ar-en')`"
+138,id_liputan6,"Config name is missing.
+Please pick one among the available configs: ['canonical', 'xtreme']
+Example of usage:
+	`load_dataset('id_liputan6', 'canonical')`"
+139,times_of_india_news_headlines,"The dataset times_of_india_news_headlines with config default requires manual data.
+                    Please follow the manual download instructions:
+                         You need to go to https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/DPQMQH/P2Z4PM and manually download the dataset. Once it is completed, a csv file named india-news-headlines.csv will be appeared in your Downloads folder or whichever folder your browser chooses to save files to. You can then move that file under <path/to/folder>. The <path/to/folder> can e.g. be ""~/manual_data"". times_of_india_news_headlines can then be loaded using the following command `datasets.load_dataset(""times_of_india_news_headlines"", data_dir=""<path/to/folder>"")`.
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(times_of_india_news_headlines, data_dir='<path/to/manual/data>')"
+140,lince,"Config name is missing.
+Please pick one among the available configs: ['lid_spaeng', 'lid_hineng', 'lid_msaea', 'lid_nepeng', 'pos_spaeng', 'pos_hineng', 'ner_spaeng', 'ner_msaea', 'ner_hineng', 'sa_spaeng']
+Example of usage:
+	`load_dataset('lince', 'lid_spaeng')`"
+141,scientific_papers,"Config name is missing.
+Please pick one among the available configs: ['pubmed', 'arxiv']
+Example of usage:
+	`load_dataset('scientific_papers', 'pubmed')`"
+142,msr_genomics_kbcomp,"The dataset msr_genomics_kbcomp with config default requires manual data.
+                    Please follow the manual download instructions:
+                       To use msr_genomics_kbcomp you need to download it manually. Please go to its homepage (https://msropendata.com/datasets/80b4f6e8-5d7c-4abc-9c79-2e51dfedd791)and login. Extract all files in one folder and use the path folder in datasets.load_dataset('msr_genomics_kbcomp', data_dir='path/to/folder/folder_name')
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(msr_genomics_kbcomp, data_dir='<path/to/manual/data>')"
+143,hippocorpus,"The dataset hippocorpus with config default requires manual data.
+                    Please follow the manual download instructions:
+                       To use hippocorpus you need to download it manually. Please go to its homepage (https://msropendata.com/datasets/0a83fb6f-a759-4a17-aaa2-fbac84577318)and login. Extract all files in one folder and use the path folder in datasets.load_dataset('hippocorpus', data_dir='path/to/folder/folder_name')
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(hippocorpus, data_dir='<path/to/manual/data>')"
+144,wmt20_mlqe_task1,"Config name is missing.
+Please pick one among the available configs: ['en-de', 'en-zh', 'et-en', 'ne-en', 'ro-en', 'si-en', 'ru-en']
+Example of usage:
+	`load_dataset('wmt20_mlqe_task1', 'en-de')`"
+145,clue,"Config name is missing.
+Please pick one among the available configs: ['afqmc', 'tnews', 'iflytek', 'cmnli', 'cluewsc2020', 'csl', 'cmrc2018', 'drcd', 'chid', 'c3', 'ocnli', 'diagnostics']
+Example of usage:
+	`load_dataset('clue', 'afqmc')`"
+146,c4,"Config name is missing.
+Please pick one among the available configs: ['en', 'realnewslike', 'en.noblocklist', 'en.noclean']
+Example of usage:
+	`load_dataset('c4', 'en')`"
+147,winograd_wsc,"Config name is missing.
+Please pick one among the available configs: ['wsc285', 'wsc273']
+Example of usage:
+	`load_dataset('winograd_wsc', 'wsc285')`"
+148,wmt14,"Config name is missing.
+Please pick one among the available configs: ['cs-en', 'de-en', 'fr-en', 'hi-en', 'ru-en']
+Example of usage:
+	`load_dataset('wmt14', 'cs-en')`"
+149,race,"Config name is missing.
+Please pick one among the available configs: ['high', 'middle', 'all']
+Example of usage:
+	`load_dataset('race', 'high')`"
+150,discovery,"Config name is missing.
+Please pick one among the available configs: ['discovery', 'discoverysmall']
+Example of usage:
+	`load_dataset('discovery', 'discovery')`"
+151,mc4,"Config name is missing.
+Please pick one among the available configs: ['af', 'am', 'ar', 'az', 'be', 'bg', 'bg-Latn', 'bn', 'ca', 'ceb', 'co', 'cs', 'cy', 'da', 'de', 'el', 'el-Latn', 'en', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fil', 'fr', 'fy', 'ga', 'gd', 'gl', 'gu', 'ha', 'haw', 'hi', 'hi-Latn', 'hmn', 'ht', 'hu', 'hy', 'id', 'ig', 'is', 'it', 'iw', 'ja', 'ja-Latn', 'jv', 'ka', 'kk', 'km', 'kn', 'ko', 'ku', 'ky', 'la', 'lb', 'lo', 'lt', 'lv', 'mg', 'mi', 'mk', 'ml', 'mn', 'mr', 'ms', 'mt', 'my', 'ne', 'nl', 'no', 'ny', 'pa', 'pl', 'ps', 'pt', 'ro', 'ru', 'ru-Latn', 'sd', 'si', 'sk', 'sl', 'sm', 'sn', 'so', 'sq', 'sr', 'st', 'su', 'sv', 'sw', 'ta', 'te', 'tg', 'th', 'tr', 'uk', 'und', 'ur', 'uz', 'vi', 'xh', 'yi', 'yo', 'zh', 'zh-Latn', 'zu']
+Example of usage:
+	`load_dataset('mc4', 'af')`"
+152,covost2,"Config name is missing.
+Please pick one among the available configs: ['en_de', 'en_tr', 'en_fa', 'en_sv-SE', 'en_mn', 'en_zh-CN', 'en_cy', 'en_ca', 'en_sl', 'en_et', 'en_id', 'en_ar', 'en_ta', 'en_lv', 'en_ja', 'fr_en', 'de_en', 'es_en', 'ca_en', 'it_en', 'ru_en', 'zh-CN_en', 'pt_en', 'fa_en', 'et_en', 'mn_en', 'nl_en', 'tr_en', 'ar_en', 'sv-SE_en', 'lv_en', 'sl_en', 'ta_en', 'ja_en', 'id_en', 'cy_en']
+Example of usage:
+	`load_dataset('covost2', 'en_de')`"
+153,euronews,"Config name is missing.
+Please pick one among the available configs: ['fr-bnf', 'nl-kb', 'de-sbb', 'de-onb', 'de-lft']
+Example of usage:
+	`load_dataset('euronews', 'fr-bnf')`"
+154,discofuse,"Config name is missing.
+Please pick one among the available configs: ['discofuse-sport', 'discofuse-wikipedia']
+Example of usage:
+	`load_dataset('discofuse', 'discofuse-sport')`"
+155,cc100,"Config name is missing.
+Please pick one among the available configs: ['am', 'sr']
+Example of usage:
+	`load_dataset('cc100', 'am')`"
+156,trivia_qa,"Config name is missing.
+Please pick one among the available configs: ['rc', 'rc.nocontext', 'unfiltered', 'unfiltered.nocontext', 'rc.web', 'rc.web.nocontext', 'rc.wikipedia', 'rc.wikipedia.nocontext']
+Example of usage:
+	`load_dataset('trivia_qa', 'rc')`"
+157,bianet,"Config name is missing.
+Please pick one among the available configs: ['en_to_ku', 'en_to_tr', 'ku_to_tr']
+Example of usage:
+	`load_dataset('bianet', 'en_to_ku')`"
+158,crd3,Cannot seek streaming HTTP file
+159,taskmaster1,"Config name is missing.
+Please pick one among the available configs: ['one_person_dialogs', 'woz_dialogs']
+Example of usage:
+	`load_dataset('taskmaster1', 'one_person_dialogs')`"
+160,mdd,"Config name is missing.
+Please pick one among the available configs: ['task1_qa', 'task2_recs', 'task3_qarecs', 'task4_reddit']
+Example of usage:
+	`load_dataset('mdd', 'task1_qa')`"
+161,enriched_web_nlg,"Config name is missing.
+Please pick one among the available configs: ['en', 'de']
+Example of usage:
+	`load_dataset('enriched_web_nlg', 'en')`"
+162,time_dial,Bad split: train. Available splits: ['test']
+163,pragmeval,"Config name is missing.
+Please pick one among the available configs: ['verifiability', 'emobank-arousal', 'switchboard', 'persuasiveness-eloquence', 'mrda', 'gum', 'emergent', 'persuasiveness-relevance', 'persuasiveness-specificity', 'persuasiveness-strength', 'emobank-dominance', 'squinky-implicature', 'sarcasm', 'squinky-formality', 'stac', 'pdtb', 'persuasiveness-premisetype', 'squinky-informativeness', 'persuasiveness-claimtype', 'emobank-valence']
+Example of usage:
+	`load_dataset('pragmeval', 'verifiability')`"
+164,newsroom,"The dataset newsroom with config default requires manual data.
+                    Please follow the manual download instructions:
+                       You should download the dataset from http://lil.datasets.cornell.edu/newsroom/
+  The webpage requires registration.
+  To unzip the .tar file run `tar -zxvf complete.tar`. To unzip the .gz files
+  run `gunzip train.json.gz` , ...
+  After downloading, please put the files under the following names
+  dev.jsonl, test.jsonl and train.jsonl in a dir of your choice,
+  which will be used as a manual_dir, e.g. `~/.manual_dirs/newsroom`
+  Newsroom can then be loaded via:
+  `datasets.load_dataset(""newsroom"", data_dir=""~/.manual_dirs/newsroom"")`.
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(newsroom, data_dir='<path/to/manual/data>')"
+165,duorc,"Config name is missing.
+Please pick one among the available configs: ['SelfRC', 'ParaphraseRC']
+Example of usage:
+	`load_dataset('duorc', 'SelfRC')`"
+166,ted_iwlst2013,"Config name is missing.
+Please pick one among the available configs: ['ar-en', 'de-en', 'en-es', 'en-fa', 'en-fr', 'en-it', 'en-nl', 'en-pl', 'en-pt', 'en-ro', 'en-ru', 'en-sl', 'en-tr', 'en-zh']
+Example of usage:
+	`load_dataset('ted_iwlst2013', 'ar-en')`"
+167,the_pile_stack_exchange,2
+168,ethos,"Config name is missing.
+Please pick one among the available configs: ['binary', 'multilabel']
+Example of usage:
+	`load_dataset('ethos', 'binary')`"
+169,reasoning_bg,"Config name is missing.
+Please pick one among the available configs: ['biology-12th', 'philosophy-12th', 'geography-12th', 'history-12th', 'history-quiz']
+Example of usage:
+	`load_dataset('reasoning_bg', 'biology-12th')`"
+170,squadshifts,"Config name is missing.
+Please pick one among the available configs: ['new_wiki', 'nyt', 'reddit', 'amazon']
+Example of usage:
+	`load_dataset('squad_shifts', 'new_wiki')`"
+171,lambada,Extraction protocol for TAR archives like 'https://zenodo.org/record/2630551/files/lambada-dataset.tar.gz' is not implemented in streaming mode. Please use `dl_manager.iter_archive` instead.
+172,common_voice,"Config name is missing.
+Please pick one among the available configs: ['ab', 'ar', 'as', 'br', 'ca', 'cnh', 'cs', 'cv', 'cy', 'de', 'dv', 'el', 'en', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fr', 'fy-NL', 'ga-IE', 'hi', 'hsb', 'hu', 'ia', 'id', 'it', 'ja', 'ka', 'kab', 'ky', 'lg', 'lt', 'lv', 'mn', 'mt', 'nl', 'or', 'pa-IN', 'pl', 'pt', 'rm-sursilv', 'rm-vallader', 'ro', 'ru', 'rw', 'sah', 'sl', 'sv-SE', 'ta', 'th', 'tr', 'tt', 'uk', 'vi', 'vot', 'zh-CN', 'zh-HK', 'zh-TW']
+Example of usage:
+	`load_dataset('common_voice', 'ab')`"
+173,numeric_fused_head,"Config name is missing.
+Please pick one among the available configs: ['identification', 'resolution']
+Example of usage:
+	`load_dataset('numeric_fused_head', 'identification')`"
+174,hotpot_qa,"Config name is missing.
+Please pick one among the available configs: ['distractor', 'fullwiki']
+Example of usage:
+	`load_dataset('hotpot_qa', 'distractor')`"
+175,swiss_judgment_prediction,"Config name is missing.
+Please pick one among the available configs: ['de', 'fr', 'it', 'all_languages']
+Example of usage:
+	`load_dataset('swiss_judgment_prediction', 'de')`"
+176,openbookqa,"Config name is missing.
+Please pick one among the available configs: ['main', 'additional']
+Example of usage:
+	`load_dataset('openbookqa', 'main')`"
+177,sem_eval_2020_task_11,"The dataset sem_eval_2020_task_11 with config default requires manual data.
+                    Please follow the manual download instructions:
+                             To access the data for this task, register for the task at:
+        https://propaganda.qcri.org/ptc/registration.php
+
+        Once registered, go to the main page (https://propaganda.qcri.org/ptc/index.html)
+        and enter your passcode to access your team page.
+
+        Alternately, your team page can be access directly with your passcode via the url:
+        https://propaganda.qcri.org/ptc/teampage.php?passcode=<YOUR_PASSCODE_HERE>
+
+        From your team page, click on the download link for ""PTC Corpus - Version 2"".
+
+        Untar this file with `tar -xvf ptc-corpus.tgz`, which will produce a directory called
+        `datasets` which contains the subdirectories for text and annotations.
+
+        To load the dataset, pass in the full path to the `datasets` directory
+        in your call to `datasets.load_dataset('sem_eval_2020_task_11', data_dir=<path_to_datasets_dir>/datasets)`
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(sem_eval_2020_task_11, data_dir='<path/to/manual/data>')"
+178,recipe_nlg,"The dataset recipe_nlg with config default requires manual data.
+                    Please follow the manual download instructions:
+                         You need to go to https://recipenlg.cs.put.poznan.pl/,
+    and manually download the dataset. Once it is completed,
+    a file named dataset.zip will be appeared in your Downloads folder
+    or whichever folder your browser chooses to save files to. You then have
+    to unzip the file and move full_dataset.csv under <path/to/folder>.
+    The <path/to/folder> can e.g. be ""~/manual_data"".
+    recipe_nlg can then be loaded using the following command `datasets.load_dataset(""recipe_nlg"", data_dir=""<path/to/folder>"")`.
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(recipe_nlg, data_dir='<path/to/manual/data>')"
+179,scan,"Config name is missing.
+Please pick one among the available configs: ['simple', 'addprim_jump', 'addprim_turn_left', 'filler_num0', 'filler_num1', 'filler_num2', 'filler_num3', 'length', 'template_around_right', 'template_jump_around_right', 'template_opposite_right', 'template_right']
+Example of usage:
+	`load_dataset('scan', 'simple')`"
+180,indic_glue,"Config name is missing.
+Please pick one among the available configs: ['wnli.en', 'wnli.hi', 'wnli.gu', 'wnli.mr', 'copa.en', 'copa.hi', 'copa.gu', 'copa.mr', 'sna.bn', 'csqa.as', 'csqa.bn', 'csqa.gu', 'csqa.hi', 'csqa.kn', 'csqa.ml', 'csqa.mr', 'csqa.or', 'csqa.pa', 'csqa.ta', 'csqa.te', 'wstp.as', 'wstp.bn', 'wstp.gu', 'wstp.hi', 'wstp.kn', 'wstp.ml', 'wstp.mr', 'wstp.or', 'wstp.pa', 'wstp.ta', 'wstp.te', 'inltkh.gu', 'inltkh.ml', 'inltkh.mr', 'inltkh.ta', 'inltkh.te', 'bbca.hi', 'cvit-mkb-clsr.en-bn', 'cvit-mkb-clsr.en-gu', 'cvit-mkb-clsr.en-hi', 'cvit-mkb-clsr.en-ml', 'cvit-mkb-clsr.en-mr', 'cvit-mkb-clsr.en-or', 'cvit-mkb-clsr.en-ta', 'cvit-mkb-clsr.en-te', 'cvit-mkb-clsr.en-ur', 'iitp-mr.hi', 'iitp-pr.hi', 'actsa-sc.te', 'md.hi', 'wiki-ner.as', 'wiki-ner.bn', 'wiki-ner.gu', 'wiki-ner.hi', 'wiki-ner.kn', 'wiki-ner.ml', 'wiki-ner.mr', 'wiki-ner.or', 'wiki-ner.pa', 'wiki-ner.ta', 'wiki-ner.te']
+Example of usage:
+	`load_dataset('indic_glue', 'wnli.en')`"
+181,news_commentary,"Config name is missing.
+Please pick one among the available configs: ['ar-cs', 'ar-de', 'cs-de', 'ar-en', 'cs-en', 'de-en', 'ar-es', 'cs-es', 'de-es', 'en-es', 'ar-fr', 'cs-fr', 'de-fr', 'en-fr', 'es-fr', 'ar-it', 'cs-it', 'de-it', 'en-it', 'es-it', 'fr-it', 'ar-ja', 'cs-ja', 'de-ja', 'en-ja', 'es-ja', 'fr-ja', 'ar-nl', 'cs-nl', 'de-nl', 'en-nl', 'es-nl', 'fr-nl', 'it-nl', 'ar-pt', 'cs-pt', 'de-pt', 'en-pt', 'es-pt', 'fr-pt', 'it-pt', 'nl-pt', 'ar-ru', 'cs-ru', 'de-ru', 'en-ru', 'es-ru', 'fr-ru', 'it-ru', 'ja-ru', 'nl-ru', 'pt-ru', 'ar-zh', 'cs-zh', 'de-zh', 'en-zh', 'es-zh', 'fr-zh', 'it-zh', 'ja-zh', 'nl-zh', 'pt-zh', 'ru-zh']
+Example of usage:
+	`load_dataset('news_commentary', 'ar-cs')`"
+182,search_qa,"Config name is missing.
+Please pick one among the available configs: ['raw_jeopardy', 'train_test_val']
+Example of usage:
+	`load_dataset('search_qa', 'raw_jeopardy')`"
+183,mt_eng_vietnamese,"Config name is missing.
+Please pick one among the available configs: ['iwslt2015-vi-en', 'iwslt2015-en-vi']
+Example of usage:
+	`load_dataset('mt_eng_vietnamese', 'iwslt2015-vi-en')`"
+184,telugu_news,"The dataset telugu_news with config default requires manual data.
+                    Please follow the manual download instructions:
+                         You need to visit Kaggle @ https://www.kaggle.com/sudalairajkumar/telugu-nlp,
+    and manually download the `telugu_news` dataset. This will download a file called
+    `telugu_news.zip` to your laptop. Unzip the file and move the two CSV files
+    (train and test) files to <path/to/folder>. You can then use
+    `datasets.load_dataset(""telugu_news"", data_dir=""<path/to/folder>"")` to load the datset.
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(telugu_news, data_dir='<path/to/manual/data>')"
+185,reddit_tifu,"Config name is missing.
+Please pick one among the available configs: ['short', 'long']
+Example of usage:
+	`load_dataset('reddit_tifu', 'short')`"
+186,un_ga,"Config name is missing.
+Please pick one among the available configs: ['ar_to_en', 'ar_to_es', 'ar_to_fr', 'ar_to_ru', 'ar_to_zh', 'en_to_es', 'en_to_fr', 'en_to_ru', 'en_to_zh', 'es_to_fr', 'es_to_ru', 'es_to_zh', 'fr_to_ru', 'fr_to_zh', 'ru_to_zh']
+Example of usage:
+	`load_dataset('un_ga', 'ar_to_en')`"
+187,setimes,"Config name is missing.
+Please pick one among the available configs: ['bg-bs', 'bg-el', 'bs-el', 'bg-en', 'bs-en', 'el-en', 'bg-hr', 'bs-hr', 'el-hr', 'en-hr', 'bg-mk', 'bs-mk', 'el-mk', 'en-mk', 'hr-mk', 'bg-ro', 'bs-ro', 'el-ro', 'en-ro', 'hr-ro', 'mk-ro', 'bg-sq', 'bs-sq', 'el-sq', 'en-sq', 'hr-sq', 'mk-sq', 'ro-sq', 'bg-sr', 'bs-sr', 'el-sr', 'en-sr', 'hr-sr', 'mk-sr', 'ro-sr', 'sq-sr', 'bg-tr', 'bs-tr', 'el-tr', 'en-tr', 'hr-tr', 'mk-tr', 'ro-tr', 'sq-tr', 'sr-tr']
+Example of usage:
+	`load_dataset('setimes', 'bg-bs')`"
+188,kor_nli,"Config name is missing.
+Please pick one among the available configs: ['multi_nli', 'snli', 'xnli']
+Example of usage:
+	`load_dataset('kor_nli', 'multi_nli')`"
+189,lex_glue,"Config name is missing.
+Please pick one among the available configs: ['ecthr_a', 'ecthr_b', 'eurlex', 'scotus', 'ledgar', 'unfair_tos', 'case_hold']
+Example of usage:
+	`load_dataset('lex_glue', 'ecthr_a')`"
+190,universal_dependencies,No module named 'conllu'
+191,sharc_modified,"Config name is missing.
+Please pick one among the available configs: ['mod', 'mod_dev_multi', 'history', 'history_dev_multi']
+Example of usage:
+	`load_dataset('sharc_modified', 'mod')`"
+192,opus_paracrawl,"Config name is missing.
+Please pick one among the available configs: ['el-en', 'en-ha', 'en-ig', 'en-km', 'en-so', 'de-pl', 'fr-nl', 'en-sw', 'en-tl', 'es-gl']
+Example of usage:
+	`load_dataset('opus_para_crawl', 'el-en')`"
+193,peer_read,"Config name is missing.
+Please pick one among the available configs: ['parsed_pdfs', 'reviews']
+Example of usage:
+	`load_dataset('peer_read', 'parsed_pdfs')`"
+194,linnaeus,"HTTPSConnectionPool(host='drive.google.com', port=443): Read timed out. (read timeout=10.0)"
+195,opus_infopankki,"Config name is missing.
+Please pick one among the available configs: ['ar-en', 'ar-es', 'ar-et', 'ar-fa', 'ar-fi', 'ar-fr', 'ar-ru', 'ar-so', 'ar-sv', 'ar-tr', 'ar-zh', 'en-es', 'en-et', 'en-fa', 'en-fi', 'en-fr', 'en-ru', 'en-so', 'en-sv', 'en-tr', 'en-zh', 'es-et', 'es-fa', 'es-fi', 'es-fr', 'es-ru', 'es-so', 'es-sv', 'es-tr', 'es-zh', 'et-fa', 'et-fi', 'et-fr', 'et-ru', 'et-so', 'et-sv', 'et-tr', 'et-zh', 'fa-fi', 'fa-fr', 'fa-ru', 'fa-so', 'fa-sv', 'fa-tr', 'fa-zh', 'fi-fr', 'fi-ru', 'fi-so', 'fi-sv', 'fi-tr', 'fi-zh', 'fr-ru', 'fr-so', 'fr-sv', 'fr-tr', 'fr-zh', 'ru-so', 'ru-sv', 'ru-tr', 'ru-zh', 'so-sv', 'so-tr', 'so-zh', 'sv-tr', 'sv-zh', 'tr-zh']
+Example of usage:
+	`load_dataset('opus_infopankki', 'ar-en')`"
+196,wmt19,"Config name is missing.
+Please pick one among the available configs: ['cs-en', 'de-en', 'fi-en', 'gu-en', 'kk-en', 'lt-en', 'ru-en', 'zh-en', 'fr-de']
+Example of usage:
+	`load_dataset('wmt19', 'cs-en')`"
+197,hope_edi,"Config name is missing.
+Please pick one among the available configs: ['english', 'tamil', 'malayalam']
+Example of usage:
+	`load_dataset('hope_edi', 'english')`"
+198,newsqa,"The dataset newsqa with config split requires manual data.
+                    Please follow the manual download instructions:
+                      Due to legal restrictions with the CNN data and data extraction. The data has to be downloaded from several sources and compiled as per the instructions by Authors.         Upon obtaining the resulting data folders, it can be loaded easily using the datasets API.         Please refer to (https://github.com/Maluuba/newsqa) to download data from Microsoft Reseach site (https://msropendata.com/datasets/939b1042-6402-4697-9c15-7a28de7e1321)         and a CNN datasource (https://cs.nyu.edu/~kcho/DMQA/) and run the scripts present here (https://github.com/Maluuba/newsqa).        This will generate a folder named ""split-data"" and a file named ""combined-newsqa-data-v1.csv"".        Copy the above folder and the file to a directory where you want to store them locally.        They must be used to load the dataset via `datasets.load_dataset(""narqa"", data_dir=""<path/to/folder>"").
+                    Manual data can be loaded with:
+                     datasets.load_dataset(newsqa, data_dir='<path/to/manual/data>')"
+199,qed_amara,"Config name is missing.
+Please pick one among the available configs: ['ar-ko', 'de-fr', 'es-it', 'en-ja', 'he-nl']
+Example of usage:
+	`load_dataset('qed_amara', 'ar-ko')`"
+200,hansards,"Config name is missing.
+Please pick one among the available configs: ['house', 'senate']
+Example of usage:
+	`load_dataset('hansards', 'house')`"
+201,cnn_dailymail,"Config name is missing.
+Please pick one among the available configs: ['3.0.0', '1.0.0', '2.0.0']
+Example of usage:
+	`load_dataset('cnn_dailymail', '3.0.0')`"
+202,para_crawl,"Config name is missing.
+Please pick one among the available configs: ['enbg', 'encs', 'enda', 'ende', 'enel', 'enes', 'enet', 'enfi', 'enfr', 'enga', 'enhr', 'enhu', 'enit', 'enlt', 'enlv', 'enmt', 'ennl', 'enpl', 'enpt', 'enro', 'ensk', 'ensl', 'ensv']
+Example of usage:
+	`load_dataset('para_crawl', 'enbg')`"
+203,arabic_pos_dialect,"Config name is missing.
+Please pick one among the available configs: ['egy', 'lev', 'glf', 'mgr']
+Example of usage:
+	`load_dataset('arabic_pos_dialect', 'egy')`"
+204,ami,"Config name is missing.
+Please pick one among the available configs: ['headset-single', 'headset-multi', 'microphone-single', 'microphone-multi']
+Example of usage:
+	`load_dataset('ami', 'headset-single')`"
+205,wiki_auto,"Bad split: train. Available splits: ['part_1', 'part_2']"
+206,web_nlg,"Config name is missing.
+Please pick one among the available configs: ['webnlg_challenge_2017', 'release_v1', 'release_v2', 'release_v2_constrained', 'release_v2.1', 'release_v2.1_constrained', 'release_v3.0_en', 'release_v3.0_ru']
+Example of usage:
+	`load_dataset('web_nlg', 'webnlg_challenge_2017')`"
+207,xquad_r,"Config name is missing.
+Please pick one among the available configs: ['ar', 'de', 'zh', 'vi', 'en', 'es', 'hi', 'el', 'th', 'tr', 'ru']
+Example of usage:
+	`load_dataset('xquad_r', 'ar')`"
+208,yoruba_wordsim353,Bad split: train. Available splits: ['test']
+209,tanzil,"Config name is missing.
+Please pick one among the available configs: ['bg-en', 'bn-hi', 'fa-sv', 'ru-zh', 'en-tr']
+Example of usage:
+	`load_dataset('tanzil', 'bg-en')`"
+210,tweets_ar_en_parallel,"Config name is missing.
+Please pick one among the available configs: ['parallelTweets', 'accountList', 'countryTopicAnnotation']
+Example of usage:
+	`load_dataset('tweets_ar_en_parallel', 'parallelTweets')`"
+211,narrativeqa_manual,"The dataset narrativeqa_manual with config default requires manual data.
+                    Please follow the manual download instructions:
+                      You need to manually download the stories for this dataset using the script provided by the authors                 (https://github.com/deepmind/narrativeqa/blob/master/download_stories.sh). Running the shell script creates a folder named ""tmp""                in the root directory and downloads the stories there. This folder containing the stories                can be used to load the dataset via `datasets.load_dataset(""narrativeqa_manual"", data_dir=""<path/to/folder>"").
+                    Manual data can be loaded with:
+                     datasets.load_dataset(narrativeqa_manual, data_dir='<path/to/manual/data>')"
+212,mkb,"Config name is missing.
+Please pick one among the available configs: ['or-ur', 'ml-or', 'bn-ta', 'gu-mr', 'hi-or', 'en-or', 'mr-ur', 'en-ta', 'hi-ta', 'bn-en', 'bn-or', 'ml-ta', 'gu-ur', 'bn-ml', 'bn-hi', 'gu-te', 'hi-ml', 'or-te', 'en-ml', 'en-hi', 'mr-te', 'bn-te', 'gu-hi', 'ta-ur', 'te-ur', 'gu-ml', 'hi-te', 'en-te', 'ml-te', 'hi-ur', 'mr-or', 'en-ur', 'ml-ur', 'bn-mr', 'gu-ta', 'bn-gu', 'bn-ur', 'ml-mr', 'or-ta', 'ta-te', 'gu-or', 'en-gu', 'hi-mr', 'mr-ta', 'en-mr']
+Example of usage:
+	`load_dataset('mkb', 'or-ur')`"
+213,cord19,"Config name is missing.
+Please pick one among the available configs: ['metadata', 'fulltext', 'embeddings']
+Example of usage:
+	`load_dataset('cord19', 'metadata')`"
+214,iwslt2017,"Config name is missing.
+Please pick one among the available configs: ['iwslt2017-en-it', 'iwslt2017-en-nl', 'iwslt2017-en-ro', 'iwslt2017-it-en', 'iwslt2017-it-nl', 'iwslt2017-it-ro', 'iwslt2017-nl-en', 'iwslt2017-nl-it', 'iwslt2017-nl-ro', 'iwslt2017-ro-en', 'iwslt2017-ro-it', 'iwslt2017-ro-nl', 'iwslt2017-ar-en', 'iwslt2017-de-en', 'iwslt2017-en-ar', 'iwslt2017-en-de', 'iwslt2017-en-fr', 'iwslt2017-en-ja', 'iwslt2017-en-ko', 'iwslt2017-en-zh', 'iwslt2017-fr-en', 'iwslt2017-ja-en', 'iwslt2017-ko-en', 'iwslt2017-zh-en']
+Example of usage:
+	`load_dataset('iwslt217', 'iwslt2017-en-it')`"
+215,poleval2019_cyberbullying,"Config name is missing.
+Please pick one among the available configs: ['task01', 'task02']
+Example of usage:
+	`load_dataset('poleval2019_cyber_bullying', 'task01')`"
+216,so_stacksample,"Config name is missing.
+Please pick one among the available configs: ['Answers', 'Questions', 'Tags']
+Example of usage:
+	`load_dataset('so_stack_sample', 'Answers')`"
+217,norwegian_ner,No module named 'conllu'
+218,m_lama,Bad split: train. Available splits: ['test']
+219,wiki40b,"Config name is missing.
+Please pick one among the available configs: ['en', 'ar', 'zh-cn', 'zh-tw', 'nl', 'fr', 'de', 'it', 'ja', 'ko', 'pl', 'pt', 'ru', 'es', 'th', 'tr', 'bg', 'ca', 'cs', 'da', 'el', 'et', 'fa', 'fi', 'he', 'hi', 'hr', 'hu', 'id', 'lt', 'lv', 'ms', 'no', 'ro', 'sk', 'sl', 'sr', 'sv', 'tl', 'uk', 'vi']
+Example of usage:
+	`load_dataset('wiki40b', 'en')`"
+220,brwac,"The dataset brwac with config default requires manual data.
+                    Please follow the manual download instructions:
+
+        You need to
+        1. Manually download `brwac.vert.gz` from https://www.inf.ufrgs.br/pln/wiki/index.php?title=BrWaC
+        2. Extract the brwac.vert.gz in; this will result in the file brwac.vert in a folder <path/to/folder>
+        The <path/to/folder> can e.g. be `~/Downloads`.
+        BrWaC can then be loaded using the following command `datasets.load_dataset(""brwac"", data_dir=""<path/to/folder>"")`.
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(brwac, data_dir='<path/to/manual/data>')"
+221,xcopa,"Config name is missing.
+Please pick one among the available configs: ['et', 'ht', 'it', 'id', 'qu', 'sw', 'zh', 'ta', 'th', 'tr', 'vi', 'translation-et', 'translation-ht', 'translation-it', 'translation-id', 'translation-sw', 'translation-zh', 'translation-ta', 'translation-th', 'translation-tr', 'translation-vi']
+Example of usage:
+	`load_dataset('xcopa', 'et')`"
+222,cbt,"Config name is missing.
+Please pick one among the available configs: ['raw', 'V', 'P', 'NE', 'CN']
+Example of usage:
+	`load_dataset('cbt', 'raw')`"
+223,aquamuse,No module named 'tensorflow'
+224,mc_taco,"Bad split: train. Available splits: ['test', 'validation']"
+225,ubuntu_dialogs_corpus,"Config name is missing.
+Please pick one among the available configs: ['train', 'dev_test']
+Example of usage:
+	`load_dataset('ubuntu_dialogs_corpus', 'train')`"
+226,blimp,"Config name is missing.
+Please pick one among the available configs: ['adjunct_island', 'anaphor_gender_agreement', 'anaphor_number_agreement', 'animate_subject_passive', 'animate_subject_trans', 'causative', 'complex_NP_island', 'coordinate_structure_constraint_complex_left_branch', 'coordinate_structure_constraint_object_extraction', 'determiner_noun_agreement_1', 'determiner_noun_agreement_2', 'determiner_noun_agreement_irregular_1', 'determiner_noun_agreement_irregular_2', 'determiner_noun_agreement_with_adj_2', 'determiner_noun_agreement_with_adj_irregular_1', 'determiner_noun_agreement_with_adj_irregular_2', 'determiner_noun_agreement_with_adjective_1', 'distractor_agreement_relational_noun', 'distractor_agreement_relative_clause', 'drop_argument', 'ellipsis_n_bar_1', 'ellipsis_n_bar_2', 'existential_there_object_raising', 'existential_there_quantifiers_1', 'existential_there_quantifiers_2', 'existential_there_subject_raising', 'expletive_it_object_raising', 'inchoative', 'intransitive', 'irregular_past_participle_adjectives', 'irregular_past_participle_verbs', 'irregular_plural_subject_verb_agreement_1', 'irregular_plural_subject_verb_agreement_2', 'left_branch_island_echo_question', 'left_branch_island_simple_question', 'matrix_question_npi_licensor_present', 'npi_present_1', 'npi_present_2', 'only_npi_licensor_present', 'only_npi_scope', 'passive_1', 'passive_2', 'principle_A_c_command', 'principle_A_case_1', 'principle_A_case_2', 'principle_A_domain_1', 'principle_A_domain_2', 'principle_A_domain_3', 'principle_A_reconstruction', 'regular_plural_subject_verb_agreement_1', 'regular_plural_subject_verb_agreement_2', 'sentential_negation_npi_licensor_present', 'sentential_negation_npi_scope', 'sentential_subject_island', 'superlative_quantifiers_1', 'superlative_quantifiers_2', 'tough_vs_raising_1', 'tough_vs_raising_2', 'transitive', 'wh_island', 'wh_questions_object_gap', 'wh_questions_subject_gap', 'wh_questions_subject_gap_long_distance', 'wh_vs_that_no_gap', 'wh_vs_that_no_gap_long_distance', 'wh_vs_that_with_gap', 'wh_vs_that_with_gap_long_distance']
+Example of usage:
+	`load_dataset('blimp', 'adjunct_island')`"
+227,wikiann,"Config name is missing.
+Please pick one among the available configs: ['ace', 'af', 'als', 'am', 'an', 'ang', 'ar', 'arc', 'arz', 'as', 'ast', 'ay', 'az', 'ba', 'bar', 'bat-smg', 'be', 'be-x-old', 'bg', 'bh', 'bn', 'bo', 'br', 'bs', 'ca', 'cbk-zam', 'cdo', 'ce', 'ceb', 'ckb', 'co', 'crh', 'cs', 'csb', 'cv', 'cy', 'da', 'de', 'diq', 'dv', 'el', 'eml', 'en', 'eo', 'es', 'et', 'eu', 'ext', 'fa', 'fi', 'fiu-vro', 'fo', 'fr', 'frr', 'fur', 'fy', 'ga', 'gan', 'gd', 'gl', 'gn', 'gu', 'hak', 'he', 'hi', 'hr', 'hsb', 'hu', 'hy', 'ia', 'id', 'ig', 'ilo', 'io', 'is', 'it', 'ja', 'jbo', 'jv', 'ka', 'kk', 'km', 'kn', 'ko', 'ksh', 'ku', 'ky', 'la', 'lb', 'li', 'lij', 'lmo', 'ln', 'lt', 'lv', 'map-bms', 'mg', 'mhr', 'mi', 'min', 'mk', 'ml', 'mn', 'mr', 'ms', 'mt', 'mwl', 'my', 'mzn', 'nap', 'nds', 'ne', 'nl', 'nn', 'no', 'nov', 'oc', 'or', 'os', 'pa', 'pdc', 'pl', 'pms', 'pnb', 'ps', 'pt', 'qu', 'rm', 'ro', 'ru', 'rw', 'sa', 'sah', 'scn', 'sco', 'sd', 'sh', 'si', 'simple', 'sk', 'sl', 'so', 'sq', 'sr', 'su', 'sv', 'sw', 'szl', 'ta', 'te', 'tg', 'th', 'tk', 'tl', 'tr', 'tt', 'ug', 'uk', 'ur', 'uz', 'vec', 'vep', 'vi', 'vls', 'vo', 'wa', 'war', 'wuu', 'xmf', 'yi', 'yo', 'zea', 'zh', 'zh-classical', 'zh-min-nan', 'zh-yue']
+Example of usage:
+	`load_dataset('wikiann', 'ace')`"
+228,code_x_glue_cc_code_completion_line,"Config name is missing.
+Please pick one among the available configs: ['java', 'python']
+Example of usage:
+	`load_dataset('code_x_glue_cc_code_completion_line', 'java')`"
+229,daily_dialog,2
+230,id_clickbait,"Config name is missing.
+Please pick one among the available configs: ['annotated', 'raw']
+Example of usage:
+	`load_dataset('id_clickbait', 'annotated')`"
+231,telugu_books,"The dataset telugu_books with config default requires manual data.
+                    Please follow the manual download instructions:
+                         You need to go to https://www.kaggle.com/sudalairajkumar/telugu-nlp,
+    and manually download the telugu_books. Once it is completed,
+    a file named telugu_books.zip will be appeared in your Downloads folder
+    or whichever folder your browser chooses to save files to. You then have
+    to unzip the file and move telugu_books,csv under <path/to/folder>.
+    The <path/to/folder> can e.g. be ""~/manual_data"".
+    telugu_books can then be loaded using the following command `datasets.load_dataset(""telugu_books"", data_dir=""<path/to/folder>"")`.
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(telugu_books, data_dir='<path/to/manual/data>')"
+232,fever,"Config name is missing.
+Please pick one among the available configs: ['v1.0', 'v2.0', 'wiki_pages']
+Example of usage:
+	`load_dataset('fever', 'v1.0')`"
+233,adversarial_qa,"Config name is missing.
+Please pick one among the available configs: ['adversarialQA', 'dbidaf', 'dbert', 'droberta']
+Example of usage:
+	`load_dataset('adversarial_qa', 'adversarialQA')`"
+234,woz_dialogue,"Config name is missing.
+Please pick one among the available configs: ['en', 'de', 'de_en', 'it', 'it_en']
+Example of usage:
+	`load_dataset('woz_dialogue', 'en')`"
+235,ecb,"Config name is missing.
+Please pick one among the available configs: ['de-fr', 'cs-en', 'el-it', 'en-nl', 'fi-pl']
+Example of usage:
+	`load_dataset('ecb', 'de-fr')`"
+236,squad_es,"Config name is missing.
+Please pick one among the available configs: ['v1.1.0', 'v2.0.0']
+Example of usage:
+	`load_dataset('squad_es', 'v1.1.0')`"
+237,newsgroup,"Config name is missing.
+Please pick one among the available configs: ['18828_alt.atheism', '18828_comp.graphics', '18828_comp.os.ms-windows.misc', '18828_comp.sys.ibm.pc.hardware', '18828_comp.sys.mac.hardware', '18828_comp.windows.x', '18828_misc.forsale', '18828_rec.autos', '18828_rec.motorcycles', '18828_rec.sport.baseball', '18828_rec.sport.hockey', '18828_sci.crypt', '18828_sci.electronics', '18828_sci.med', '18828_sci.space', '18828_soc.religion.christian', '18828_talk.politics.guns', '18828_talk.politics.mideast', '18828_talk.politics.misc', '18828_talk.religion.misc', '19997_alt.atheism', '19997_comp.graphics', '19997_comp.os.ms-windows.misc', '19997_comp.sys.ibm.pc.hardware', '19997_comp.sys.mac.hardware', '19997_comp.windows.x', '19997_misc.forsale', '19997_rec.autos', '19997_rec.motorcycles', '19997_rec.sport.baseball', '19997_rec.sport.hockey', '19997_sci.crypt', '19997_sci.electronics', '19997_sci.med', '19997_sci.space', '19997_soc.religion.christian', '19997_talk.politics.guns', '19997_talk.politics.mideast', '19997_talk.politics.misc', '19997_talk.religion.misc', 'bydate_alt.atheism', 'bydate_comp.graphics', 'bydate_comp.os.ms-windows.misc', 'bydate_comp.sys.ibm.pc.hardware', 'bydate_comp.sys.mac.hardware', 'bydate_comp.windows.x', 'bydate_misc.forsale', 'bydate_rec.autos', 'bydate_rec.motorcycles', 'bydate_rec.sport.baseball', 'bydate_rec.sport.hockey', 'bydate_sci.crypt', 'bydate_sci.electronics', 'bydate_sci.med', 'bydate_sci.space', 'bydate_soc.religion.christian', 'bydate_talk.politics.guns', 'bydate_talk.politics.mideast', 'bydate_talk.politics.misc', 'bydate_talk.religion.misc']
+Example of usage:
+	`load_dataset('newsgroups', '18828_alt.atheism')`"
+238,turkish_movie_sentiment,"The dataset turkish_movie_sentiment with config turkishmoviesentiment requires manual data.
+                    Please follow the manual download instructions:
+                         You need to go to https://www.kaggle.com/mustfkeskin/turkish-movie-sentiment-analysis-dataset,
+    and manually download the TurkishMovieSentiment. Once it is completed,
+    a file named archive.zip will be appeared in your Downloads folder
+    or whichever folder your browser chooses to save files to. You then have
+    to unzip the file and move turkish_movie_sentiment_dataset.csv under <path/to/folder>.
+    The <path/to/folder> can e.g. be ""~/manual_data"".
+    TurkishMovieSentiment can then be loaded using the following command `datasets.load_dataset(""turkishmoviesentiment"", data_dir=""<path/to/folder>"")`.
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(turkish_movie_sentiment, data_dir='<path/to/manual/data>')"
+239,ms_terms,"The dataset ms_terms with config default requires manual data.
+                    Please follow the manual download instructions:
+                         You need to go to https://www.microsoft.com/en-us/language/terminology,
+    and manually download the language of your interest. Once it is completed,
+    a file named MicrosoftTermCollection.tbx will be appeared in your Downloads folder
+    or whichever folder your browser chooses to save files to.
+    You can then move MicrosoftTermCollection.tbx under <path/to/folder>.
+    The <path/to/folder> can e.g. be ""~/manual_data"".
+    ms_terms can then be loaded using the following command `datasets.load_dataset(""ms_terms"", data_dir=""<path/to/folder>"")`.
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(ms_terms, data_dir='<path/to/manual/data>')"
+240,squad_adversarial,"Config name is missing.
+Please pick one among the available configs: ['AddSent', 'AddOneSent']
+Example of usage:
+	`load_dataset('squad_adversarial', 'AddSent')`"
+241,wmt18,"Config name is missing.
+Please pick one among the available configs: ['cs-en', 'de-en', 'et-en', 'fi-en', 'kk-en', 'ru-en', 'tr-en', 'zh-en']
+Example of usage:
+	`load_dataset('wmt18', 'cs-en')`"
+242,generics_kb,"The dataset generics_kb with config generics_kb_best requires manual data.
+                    Please follow the manual download instructions:
+                           You need to manually download the files needed for the dataset config generics_kb_waterloo. The other configs like generics_kb_best don't need manual downloads.
+      The <path/to/folder> can e.g. be `~/Downloads/GenericsKB`. Download the following required files from https://drive.google.com/drive/folders/1vqfVXhJXJWuiiXbUa4rZjOgQoJvwZUoT
+      For working on ""generics_kb_waterloo"" data,
+        1. Manually download 'GenericsKB-Waterloo-WithContext.jsonl.zip' into your <path/to/folder>.Please ensure the filename is as is.
+           The Waterloo is also generics from GenericsKB.tsv, but expanded to also include their surrounding context (before/after sentences). The Waterloo generics are the majority of GenericsKB. This zip file is 1.4GB expanding to 5.5GB.
+        2. Extract the GenericsKB-Waterloo-WithContext.jsonl.zip; It will create a file of 5.5 GB called cskb-waterloo-06-21-with-bert-scores.jsonl.
+           Ensure you move this file into your <path/to/folder>.
+
+      generics_kb can then be loaded using the following commands based on which data you want to work on. Data files must be present in the <path/to/folder> if using ""generics_kb_waterloo"" config.
+      1. `datasets.load_dataset(""generics_kb"",""generics_kb_best"")`.
+      2. `datasets.load_dataset(""generics_kb"",""generics_kb"")`
+      3. `datasets.load_dataset(""generics_kb"",""generics_kb_simplewiki"")`
+      4. `datasets.load_dataset(""generics_kb"",""generics_kb_waterloo"", data_dir=""<path/to/folder>"")`
+
+
+                    Manual data can be loaded with:
+                     datasets.load_dataset(generics_kb, data_dir='<path/to/manual/data>')"
+243,nchlt,"Config name is missing.
+Please pick one among the available configs: ['af', 'nr', 'xh', 'zu', 'nso-sepedi', 'nso-sesotho', 'tn', 'ss', 've', 'ts']
+Example of usage:
+	`load_dataset('nchlt', 'af')`"
+244,tweet_eval,"Config name is missing.
+Please pick one among the available configs: ['emoji', 'emotion', 'hate', 'irony', 'offensive', 'sentiment', 'stance_abortion', 'stance_atheism', 'stance_climate', 'stance_feminist', 'stance_hillary']
+Example of usage:
+	`load_dataset('tweet_eval', 'emoji')`"
+245,wiki_snippets,"Config name is missing.
+Please pick one among the available configs: ['wiki40b_en_100_0', 'wikipedia_en_100_0']
+Example of usage:
+	`load_dataset('wiki_snippets', 'wiki40b_en_100_0')`"
+246,miam,"Config name is missing.
+Please pick one among the available configs: ['dihana', 'ilisten', 'loria', 'maptask', 'vm2']
+Example of usage:
+	`load_dataset('miam', 'dihana')`"
+247,opus_books,"Config name is missing.
+Please pick one among the available configs: ['ca-de', 'ca-en', 'de-en', 'el-en', 'de-eo', 'en-eo', 'de-es', 'el-es', 'en-es', 'eo-es', 'en-fi', 'es-fi', 'de-fr', 'el-fr', 'en-fr', 'eo-fr', 'es-fr', 'fi-fr', 'ca-hu', 'de-hu', 'el-hu', 'en-hu', 'eo-hu', 'fr-hu', 'de-it', 'en-it', 'eo-it', 'es-it', 'fr-it', 'hu-it', 'ca-nl', 'de-nl', 'en-nl', 'es-nl', 'fr-nl', 'hu-nl', 'it-nl', 'en-no', 'es-no', 'fi-no', 'fr-no', 'hu-no', 'en-pl', 'fi-pl', 'fr-pl', 'hu-pl', 'de-pt', 'en-pt', 'eo-pt', 'es-pt', 'fr-pt', 'hu-pt', 'it-pt', 'de-ru', 'en-ru', 'es-ru', 'fr-ru', 'hu-ru', 'it-ru', 'en-sv', 'fr-sv', 'it-sv']
+Example of usage:
+	`load_dataset('opus_books', 'ca-de')`"
+248,wiki_atomic_edits,"Config name is missing.
+Please pick one among the available configs: ['german_insertions', 'german_deletions', 'english_insertions', 'english_deletions', 'spanish_insertions', 'spanish_deletions', 'french_insertions', 'french_deletions', 'italian_insertions', 'italian_deletions', 'japanese_insertions', 'japanese_deletions', 'russian_insertions', 'russian_deletions', 'chinese_insertions', 'chinese_deletions']
+Example of usage:
+	`load_dataset('wiki_atomic_edits', 'german_insertions')`"
+249,europarl_bilingual,"Config name is missing.
+Please pick one among the available configs: ['bg-cs', 'bg-da', 'bg-de', 'bg-el', 'bg-en']
+Example of usage:
+	`load_dataset('europarl_bilingual', 'bg-cs')`"
+250,farsi_news,"Bad split: train. Available splits: ['hamshahri', 'radiofarda']"
+251,kor_nlu,"Config name is missing.
+Please pick one among the available configs: ['nli', 'sts']
+Example of usage:
+	`load_dataset('kor_nlu', 'nli')`"
+252,id_nergrit_corpus,"Config name is missing.
+Please pick one among the available configs: ['ner', 'sentiment', 'statement']
+Example of usage:
+	`load_dataset('id_nergrit_corpus', 'ner')`"
+253,guardian_authorship,"Config name is missing.
+Please pick one among the available configs: ['cross_topic_1', 'cross_topic_2', 'cross_topic_3', 'cross_topic_4', 'cross_topic_5', 'cross_topic_6', 'cross_topic_7', 'cross_topic_8', 'cross_topic_9', 'cross_topic_10', 'cross_topic_11', 'cross_topic_12', 'cross_genre_1', 'cross_genre_2', 'cross_genre_3', 'cross_genre_4']
+Example of usage:
+	`load_dataset('guardian_authorship', 'cross_topic_1')`"
+254,tab_fact,"Config name is missing.
+Please pick one among the available configs: ['tab_fact', 'blind_test']
+Example of usage:
+	`load_dataset('tab_fact', 'tab_fact')`"
+255,multi_eurlex,"Config name is missing.
+Please pick one among the available configs: ['en', 'da', 'de', 'nl', 'sv', 'bg', 'cs', 'hr', 'pl', 'sk', 'sl', 'es', 'fr', 'it', 'pt', 'ro', 'et', 'fi', 'hu', 'lt', 'lv', 'el', 'mt', 'all_languages']
+Example of usage:
+	`load_dataset('multi_eurlex', 'en')`"
+256,cmrc2018,Cannot seek streaming HTTP file
+257,cos_e,"Config name is missing.
+Please pick one among the available configs: ['v1.0', 'v1.11']
+Example of usage:
+	`load_dataset('cos_e', 'v1.0')`"
+258,mlqa,"Config name is missing.
+Please pick one among the available configs: ['mlqa-translate-train.ar', 'mlqa-translate-train.de', 'mlqa-translate-train.vi', 'mlqa-translate-train.zh', 'mlqa-translate-train.es', 'mlqa-translate-train.hi', 'mlqa-translate-test.ar', 'mlqa-translate-test.de', 'mlqa-translate-test.vi', 'mlqa-translate-test.zh', 'mlqa-translate-test.es', 'mlqa-translate-test.hi', 'mlqa.ar.ar', 'mlqa.ar.de', 'mlqa.ar.vi', 'mlqa.ar.zh', 'mlqa.ar.en', 'mlqa.ar.es', 'mlqa.ar.hi', 'mlqa.de.ar', 'mlqa.de.de', 'mlqa.de.vi', 'mlqa.de.zh', 'mlqa.de.en', 'mlqa.de.es', 'mlqa.de.hi', 'mlqa.vi.ar', 'mlqa.vi.de', 'mlqa.vi.vi', 'mlqa.vi.zh', 'mlqa.vi.en', 'mlqa.vi.es', 'mlqa.vi.hi', 'mlqa.zh.ar', 'mlqa.zh.de', 'mlqa.zh.vi', 'mlqa.zh.zh', 'mlqa.zh.en', 'mlqa.zh.es', 'mlqa.zh.hi', 'mlqa.en.ar', 'mlqa.en.de', 'mlqa.en.vi', 'mlqa.en.zh', 'mlqa.en.en', 'mlqa.en.es', 'mlqa.en.hi', 'mlqa.es.ar', 'mlqa.es.de', 'mlqa.es.vi', 'mlqa.es.zh', 'mlqa.es.en', 'mlqa.es.es', 'mlqa.es.hi', 'mlqa.hi.ar', 'mlqa.hi.de', 'mlqa.hi.vi', 'mlqa.hi.zh', 'mlqa.hi.en', 'mlqa.hi.es', 'mlqa.hi.hi']
+Example of usage:
+	`load_dataset('mlqa', 'mlqa-translate-train.ar')`"
+259,financial_phrasebank,"Config name is missing.
+Please pick one among the available configs: ['sentences_allagree', 'sentences_75agree', 'sentences_66agree', 'sentences_50agree']
+Example of usage:
+	`load_dataset('financial_phrasebank', 'sentences_allagree')`"
+260,cfq,"Config name is missing.
+Please pick one among the available configs: ['mcd1', 'mcd2', 'mcd3', 'question_complexity_split', 'question_pattern_split', 'query_complexity_split', 'query_pattern_split', 'random_split']
+Example of usage:
+	`load_dataset('cfq', 'mcd1')`"
+261,wikihow,"Config name is missing.
+Please pick one among the available configs: ['all', 'sep']
+Example of usage:
+	`load_dataset('wikihow', 'all')`"
+262,stsb_multi_mt,"Config name is missing.
+Please pick one among the available configs: ['en', 'de', 'es', 'fr', 'it', 'nl', 'pl', 'pt', 'ru', 'zh']
+Example of usage:
+	`load_dataset('stsb_multi_mt', 'en')`"
+263,silicone,"Config name is missing.
+Please pick one among the available configs: ['dyda_da', 'dyda_e', 'iemocap', 'maptask', 'meld_e', 'meld_s', 'mrda', 'oasis', 'sem', 'swda']
+Example of usage:
+	`load_dataset('silicone', 'dyda_da')`"
+264,pubmed_qa,"Config name is missing.
+Please pick one among the available configs: ['pqa_labeled', 'pqa_unlabeled', 'pqa_artificial']
+Example of usage:
+	`load_dataset('pubmed_qa', 'pqa_labeled')`"
+265,code_x_glue_cc_cloze_testing_maxmin,"Config name is missing.
+Please pick one among the available configs: ['go', 'java', 'javascript', 'php', 'python', 'ruby']
+Example of usage:
+	`load_dataset('code_x_glue_cc_cloze_testing_maxmin', 'go')`"
+266,matinf,"Config name is missing.
+Please pick one among the available configs: ['age_classification', 'topic_classification', 'summarization', 'qa']
+Example of usage:
+	`load_dataset('matinf', 'age_classification')`"
+267,babi_qa,"Config name is missing.
+Please pick one among the available configs: ['en-qa1', 'hn-qa1', 'en-10k-qa1', 'en-valid-qa1', 'en-valid-10k-qa1', 'hn-10k-qa1', 'shuffled-qa1', 'shuffled-10k-qa1']
+Example of usage:
+	`load_dataset('babi_qa', 'en-qa1')`"
+268,opus_rf,"Config name is missing.
+Please pick one among the available configs: ['de-en', 'de-es', 'de-fr', 'de-sv', 'en-es', 'en-fr', 'en-sv', 'es-fr', 'es-sv', 'fr-sv']
+Example of usage:
+	`load_dataset('opus_rf', 'de-en')`"
+269,multi_booked,"Config name is missing.
+Please pick one among the available configs: ['ca', 'eu']
+Example of usage:
+	`load_dataset('multi_booked', 'ca')`"
+270,scifact,"Config name is missing.
+Please pick one among the available configs: ['corpus', 'claims']
+Example of usage:
+	`load_dataset('scifact', 'corpus')`"
+271,ai2_arc,"Config name is missing.
+Please pick one among the available configs: ['ARC-Challenge', 'ARC-Easy']
+Example of usage:
+	`load_dataset('ai2_arc', 'ARC-Challenge')`"
+272,style_change_detection,"Config name is missing.
+Please pick one among the available configs: ['narrow', 'wide']
+Example of usage:
+	`load_dataset('style_change_detection', 'narrow')`"
+273,compguesswhat,"Config name is missing.
+Please pick one among the available configs: ['compguesswhat-original', 'compguesswhat-zero_shot']
+Example of usage:
+	`load_dataset('compguesswhat', 'compguesswhat-original')`"
+274,taskmaster2,"Config name is missing.
+Please pick one among the available configs: ['flights', 'food-ordering', 'hotels', 'movies', 'music', 'restaurant-search', 'sports']
+Example of usage:
+	`load_dataset('taskmaster2', 'flights')`"
+275,tydiqa,"Config name is missing.
+Please pick one among the available configs: ['primary_task', 'secondary_task']
+Example of usage:
+	`load_dataset('tydiqa', 'primary_task')`"
+276,opus_gnome,"Config name is missing.
+Please pick one among the available configs: ['ar-bal', 'bg-csb', 'ca-en_GB', 'cs-eo', 'de-ha', 'cs-tk', 'da-vi', 'en_GB-my', 'el-sk', 'de-tt']
+Example of usage:
+	`load_dataset('opus_gnome', 'ar-bal')`"
+277,break_data,"Config name is missing.
+Please pick one among the available configs: ['QDMR-high-level', 'QDMR-high-level-lexicon', 'QDMR', 'QDMR-lexicon', 'logical-forms']
+Example of usage:
+	`load_dataset('break_data', 'QDMR-high-level')`"
+278,conll2002,"Config name is missing.
+Please pick one among the available configs: ['es', 'nl']
+Example of usage:
+	`load_dataset('conll2002', 'es')`"
+279,wikicorpus,"Config name is missing.
+Please pick one among the available configs: ['raw_ca', 'raw_es', 'raw_en', 'tagged_ca', 'tagged_es', 'tagged_en']
+Example of usage:
+	`load_dataset('wikicorpus', 'raw_ca')`"
+280,xnli,"Config name is missing.
+Please pick one among the available configs: ['ar', 'bg', 'de', 'el', 'en', 'es', 'fr', 'hi', 'ru', 'sw', 'th', 'tr', 'ur', 'vi', 'zh', 'all_languages']
+Example of usage:
+	`load_dataset('xnli', 'ar')`"
+281,emea,"Config name is missing.
+Please pick one among the available configs: ['bg-el', 'cs-et', 'de-mt', 'fr-sk', 'es-lt']
+Example of usage:
+	`load_dataset('emea', 'bg-el')`"
+282,super_glue,"Config name is missing.
+Please pick one among the available configs: ['boolq', 'cb', 'copa', 'multirc', 'record', 'rte', 'wic', 'wsc', 'wsc.fixed', 'axb', 'axg']
+Example of usage:
+	`load_dataset('super_glue', 'boolq')`"
+283,tilde_model,"Config name is missing.
+Please pick one among the available configs: ['bg-el', 'cs-en', 'de-hr', 'en-no', 'es-pt']
+Example of usage:
+	`load_dataset('tilde_model', 'bg-el')`"
+284,russian_super_glue,"Config name is missing.
+Please pick one among the available configs: ['lidirus', 'rcb', 'parus', 'muserc', 'terra', 'russe', 'rwsd', 'danetqa', 'rucos']
+Example of usage:
+	`load_dataset('russian_super_glue', 'lidirus')`"
+285,story_cloze,"Config name is missing.
+Please pick one among the available configs: ['2016', '2018']
+Example of usage:
+	`load_dataset('story_cloze', '2016')`"
+286,bible_para,"Config name is missing.
+Please pick one among the available configs: ['de-en', 'en-fr', 'en-es', 'en-fi', 'en-no', 'en-hi']
+Example of usage:
+	`load_dataset('bible_para', 'de-en')`"
+287,climate_fever,Bad split: train. Available splits: ['test']
